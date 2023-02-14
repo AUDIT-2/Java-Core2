@@ -4,7 +4,7 @@ public class ConvertCelsiusToFahrenheit {
     public static void main(String[] args) {
         //write a java program to convert Celsius to Fahrenheit
         //Celsius = (5 * (fahrenheit -32 ) / 9
-        //Fahrenheit = (celcius * 9) / 5  + 32
+        //Fahrenheit = (celsius * 9) / 5  + 32
 
         float celsius;
         float fahrenheit;
