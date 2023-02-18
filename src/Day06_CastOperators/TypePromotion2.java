@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2023.
+ * SDET- 2 Java Core
+ * Armada-prog
+ * armada.dscrd@gmail.com
+ */
+
 package Day06_CastOperators;
 
 public class TypePromotion2 {
@@ -7,7 +14,6 @@ public class TypePromotion2 {
         //Bir işlemde işleme tabi tutulan(operand) long, float veya double ise, tüm işlem sırasıyla long, float veya double olarak yükseltilir.
         //Promote edilir.
 
-        
         byte myByte = 42;
         char myChar = 'a';
         short myShort = 1024;

@@ -13,4 +13,5 @@
 * [Day 02- MyFirstProgram | Print & Println | Comments](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day02_MyFirstProgram)
 * [Day 03- Variables-1 in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day03_Variables1)
 * [Day 04- Variables-2 in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day04_Variables2)
-* [Day 05- Arithmetic Operrators in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day05_ArithmeticOperators)
+* [Day 05- Arithmetic Operators in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day05_ArithmeticOperators)
+* [Day 06- CastOperators in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day06_CastOperators)
