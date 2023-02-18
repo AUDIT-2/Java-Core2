@@ -26,5 +26,6 @@ public class ConvertCelsiusToFahrenheit {
         System.out.println("Celsius = " + celsius);
         System.out.println("Fahrenheit = " + fahrenheit);
         System.out.println("Fahrenheit1 = " + fahrenheit1);
+
     }
 }
