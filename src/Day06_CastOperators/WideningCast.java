@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2023.
+ * SDET- 2 Java Core
+ * Armada-prog
+ * armada.dscrd@gmail.com
+ */
+
 package Day06_CastOperators;
 
 public class WideningCast {
