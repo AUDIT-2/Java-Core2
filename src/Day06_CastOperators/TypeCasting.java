@@ -34,7 +34,7 @@ public class TypeCasting {
 
         System.out.println("harf = " + harf);
         myInt = harf;
-        System.out.println("myInt = " + myInt); //'A' harfinin ASCII code tablosundaki integer sayı karşılığı olan 65 i yasdırır.
+        System.out.println("myInt = " + myInt); //'A' harfinin ASCII code tablosundaki integer sayı karşılığı olan 65 i yazdırır.
 
         // myInt = myDouble; error cannot assign larger size to smaller size
         // cannot be converted automatically by compiler
