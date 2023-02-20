@@ -8,7 +8,7 @@
 package Day03_Variables1;
 
 public class Variables {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Variables in Java.");
         System.out.println("-------------------");
         boolean evliMi; //Declaration of variable evliMi - true or false
@@ -56,5 +56,6 @@ public class Variables {
         double kdvTemizlik = 0.12;
         System.out.println("Temizlik ürünleri KDV oranı : " + kdvTemizlik);
     }
-
 }
+
+
