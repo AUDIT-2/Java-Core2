@@ -17,7 +17,7 @@ public class UnaryPreFix {
         System.out.println("num = " + num);
         System.out.println("-------------");
 
-        val = ++num; //prefix unary opers-- "num" değişkeninin değeri 1 artırılır sonra "val" değişkenine atanır
+        val = ++num; //prefix unary opers--> "num" değişkeninin değeri 1 artırılır sonra "val" değişkenine atanır
         /*
         num = num + 1;
         val = num;
@@ -27,7 +27,7 @@ public class UnaryPreFix {
         System.out.println("num = " + num);
         System.out.println("-------------");
 
-        val = --num;
+        val = --num; //prefix unary opers--> "num" değişkeninin değeri 1 eksiltilir sonra "val" değişkenine atanır
          /*
         num = num - 1;
         val = num;
@@ -35,6 +35,5 @@ public class UnaryPreFix {
         System.out.println("val = " + val);
         System.out.println("num = " + num);
         System.out.println("-------------");
-
     }
 }
