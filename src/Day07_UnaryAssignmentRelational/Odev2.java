@@ -19,7 +19,7 @@ public class Odev2 {
 
         /* 2-Soru
 
-         //Her unary işlemde x in aldığı değeri ve işlem sonucunda hesaplanan m değerini yazdıran bir program yazınız.
+         //Her unary işlemde x in aldığı değeri ve işlem sonucunda hesaplanan y değerini yazdıran bir program yazınız.
 
          int x = 20;
          int y = ++x * 10 / x++ + ++x;
