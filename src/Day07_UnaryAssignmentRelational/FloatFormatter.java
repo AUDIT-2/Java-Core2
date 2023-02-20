@@ -16,7 +16,7 @@ public class FloatFormatter {
     public static void main(String[] args){
         System.out.println("Float ve Double tipi değerlerin formatlı gösterimi.");
         float floatDeger = 25.34537f;
-        double doubleDeger = 3455678934534346364564598237892759287598759837498573498579835857457567567567567D;
+        double doubleDeger = 34556789345343463645645987457567567567567D;
 
         System.out.println("floatDeger = " + floatDeger);
         System.out.println("doubleDeger = " + doubleDeger);
@@ -24,11 +24,12 @@ public class FloatFormatter {
         //printf() metodu ile
         System.out.println("printf()-Yöntemiyle formatlı gösterim.");
         System.out.printf("%.4f\n",floatDeger); // "\n" new line escape sequence
-        // System.out.println();
+        System.out.println();
 
         //String.format() metodu ile
         System.out.println("String.format--> yöntemiyle gösterim.");
         System.out.println(String.format("%.3f",floatDeger));
+        System.out.println();
 
         //DecimalFormat Class ile
         System.out.println("DecimalFormat class yöntemi ile.");
