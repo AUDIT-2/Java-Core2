@@ -15,3 +15,5 @@
 * [Day 04- Variables-2 in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day04_Variables2)
 * [Day 05- Arithmetic Operators in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day05_ArithmeticOperators)
 * [Day 06- Cast Operators in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day06_CastOperators)
+* [Day 07- Unary-Relational Operators in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day07_UnaryAssignmentRelational)
+* [Day 08- Logical Operators in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day08_LogicalOperators)
