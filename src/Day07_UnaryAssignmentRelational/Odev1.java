@@ -17,6 +17,15 @@ public class Odev1 {
         int a, b, c;
         a = ++x;
         b = y++;
-        c = x + y++ + ++z;
+        c = x + y++ + ++z;  // c = 51 + 101 + 201
+
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+        System.out.println("z = " + z);
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        System.out.println("c = " + c);
+
+
     }
 }
