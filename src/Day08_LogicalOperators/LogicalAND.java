@@ -29,7 +29,7 @@ public class LogicalAND {
         int b = 5;
         int c = 20;
 
-        //&& short circuit logical AND---> if first condition is false no need to check the second or others expressions
+        //&& short circuit Conditional AND---> if first condition is false no need to check the second or others expressions
         //&& operator evaluates the second expression only if the first one is true.
         System.out.println(a<b && a++ < c); //false && true  ---> false
         System.out.println("a = " + a); // prints 10 because second condition is not checked
