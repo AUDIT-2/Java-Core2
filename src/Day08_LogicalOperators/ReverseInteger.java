@@ -16,7 +16,7 @@ public class ReverseInteger {
         int lastDigit = 0;
         int reverseSayi = 0;
 
-        System.out.println("Given Integer       = " +  sayi);
+        System.out.println("Given Integer       = " + sayi);
         //Algoritma
         //reverseSayi = reverseSayi * 10 + lastDigit;
 
@@ -42,6 +42,5 @@ public class ReverseInteger {
         System.out.println("Ters sayı   = " + reverseSayi);*/
 
         System.out.println("Reversed integer    = " + reverseSayi);
-
     }
 }
