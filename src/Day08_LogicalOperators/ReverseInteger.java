@@ -40,7 +40,6 @@ public class ReverseInteger {
 
        /* System.out.println("sayi        = " + sayi);
         System.out.println("Ters sayı   = " + reverseSayi);*/
-
         System.out.println("Reversed integer    = " + reverseSayi);
     }
 }

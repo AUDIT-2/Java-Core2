@@ -23,6 +23,5 @@ public class Ornek1 {
             salary = salary * 2;
             System.out.println("Çok Zamlı maaş = " + salary);
         }
-
     }
 }

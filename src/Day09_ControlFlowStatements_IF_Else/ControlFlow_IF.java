@@ -19,14 +19,12 @@ public class ControlFlow_IF {
         if (sayi > 0){
             System.out.println("Sayi positif bir sayıdır.");
         }
-
         System.out.println(sayi > 5);
 
         if(sayi > 5){
             System.out.println("Sayi 5 ten büyüktür.");
             System.out.println("İkinci satır.");
         }
-
         if(sayi > 3) System.out.println("Sayi 3 ten büyüktür.");
 
         boolean kontrol = false;
@@ -35,7 +33,6 @@ public class ControlFlow_IF {
         if(kontrol){
             System.out.println("Sayi 7 ten büyüktür.");
         }
-
         System.out.println("Sayi = " + sayi);
 
         //Syntax
