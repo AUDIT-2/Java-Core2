@@ -22,7 +22,7 @@ public class Ornek3 {
         } else { //say1 == sayi2
             System.out.println("sayi1 = " + sayi1);
             System.out.println("sayi2 = " + sayi2);
-            System.out.println("Heriki sayı birbirine eşittir.");
+            System.out.println("Her iki sayı birbirine eşittir.");
         }
     }
 }
