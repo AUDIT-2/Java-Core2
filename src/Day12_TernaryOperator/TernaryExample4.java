@@ -25,8 +25,8 @@ public class TernaryExample4 {
 
         //Ternary-1
         enbuyukSayi = (sayi1 > sayi2)
-                ? ((sayi1 > sayi3) ? sayi1 :sayi3)
-                : ((sayi2 > sayi3) ? sayi2 :sayi3);
+                ? ((sayi1 > sayi3) ? sayi1 : sayi3)
+                : ((sayi2 > sayi3) ? sayi2 : sayi3);
 
         System.out.println("3 sayıdan en büyük olanı(Ternary-1) = " + enbuyukSayi);
 
