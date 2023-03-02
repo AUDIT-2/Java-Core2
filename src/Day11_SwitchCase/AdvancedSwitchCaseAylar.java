@@ -98,5 +98,18 @@ public class AdvancedSwitchCaseAylar {
             case 9,10,11 -> System.out.println("Sonbahar aylarındandır.");
             default ->  System.out.println("Yanlış ay bilgisi girdiniz. 1-12 arası bir değer olmalı. ");
         }
+
+       //if...else if equivalent of switch case
+        System.out.println("\nif else if...");
+        if(numberMonth == 12 || numberMonth == 1 || numberMonth == 2)
+            System.out.println("Kış aylarındandır.");
+        else if(numberMonth == 3 || numberMonth == 4 || numberMonth == 5)
+            System.out.println("İlkbahar aylarındandır.");
+        else if(numberMonth == 6 || numberMonth == 7 || numberMonth == 8)
+            System.out.println("Yaz aylarındandır.");
+        else if(numberMonth == 9 || numberMonth == 10 || numberMonth == 11)
+            System.out.println("Sonbahar aylarındandır.");
+        else
+            System.out.println("Yanlış ay bilgisi girdiniz. 1-12 arası bir değer olmalı. ");
     }
 }
