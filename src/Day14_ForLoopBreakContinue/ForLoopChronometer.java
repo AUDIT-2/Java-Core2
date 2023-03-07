@@ -10,7 +10,7 @@ public class ForLoopChronometer {
                     for (int salise = 0; salise < 100; salise++) {
                         System.out.print("\r" + saat + ":" + dakika + ":" + saniye + ":" + salise );
                         for (int counter = 0; counter < 3_500_0000; counter++) {
-                            bekle = bekle + counter;
+                            bekle = bekle + counter; //CPU'yu meşgul etmek için yapılan bir işlem
                         }
                         bekle = 0;
                     }
