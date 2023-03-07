@@ -12,6 +12,7 @@ public class DayOfWeek {
         int weeks = 4;
         int days = 7;
 
+        //Nested---> iç-içe for loop
         //Outer loop prints weeks
         for (int i = 1; i <=weeks ; i++) {
             System.out.println("Week : " + i);

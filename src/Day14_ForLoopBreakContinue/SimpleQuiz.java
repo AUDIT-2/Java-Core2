@@ -10,7 +10,7 @@ package Day14_ForLoopBreakContinue;
 import java.util.Scanner;
 
 public class SimpleQuiz {
-    //Klavyeden girilen sayı kadar soru aritmetik işlem sorus soran program
+    //Klavyeden girilen sayı kadar soru aritmetik işlem sorusu soran program
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int soruSayisi = 0;

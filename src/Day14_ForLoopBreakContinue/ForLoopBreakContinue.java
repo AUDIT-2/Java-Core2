@@ -13,19 +13,20 @@ public class ForLoopBreakContinue {
         System.out.println("Break...");
         for (int i = 0; i < 5; i++) {
             if(i == 3 ){
-                break;
+                break; // this line stops-ends the loop
             }
             System.out.println(i);
         }
         System.out.println();
+
+        //Continue statement
         System.out.println("Continue...");
 
         for (int i = 0; i < 5; i++) {
             if(i == 3){
-                continue;
+                continue; // this line bypass the this iteration and goes the beginning of the loop
             }
             System.out.println(i);
         }
-
     }
 }
