@@ -8,8 +8,6 @@
 package Day15_BranchingLabeledStatements;
 
 public class DoWhileContinue {
-
-
     public static void main(String[] args) {
         int start = 1;
         int sum = 0;

@@ -10,6 +10,7 @@ package Day15_BranchingLabeledStatements;
 public class LabelledDoWhile {
     public static void main(String[] args) {
         int i = 0;
+        //Label--Loop lara isim vermek için
         outer:
         do {
             System.out.println("Outer loop.");
