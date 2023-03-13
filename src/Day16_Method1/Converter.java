@@ -57,5 +57,4 @@ public class Converter {
         System.out.println("KDV'li fiyat = " + kdvFiyat);
         System.out.println();
     }
-
 }
