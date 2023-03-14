@@ -6,8 +6,8 @@ public class NestedForLoop2 {
         int sayac = 0;
 
         for (int i = 1; i <= 15; i++) {
-            //Outher loop
-            System.out.println(i+ " - Outher loop");
+            //Outer loop
+            System.out.println(i+ " - Outer loop");
             for (int j = 1; j <=2 ; j++) {
                 System.out.println(" ---> " + j + "-Inner loop");
                 sayac++;
