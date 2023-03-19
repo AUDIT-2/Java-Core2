@@ -21,7 +21,7 @@
 * [Day 10- Control Flow Statements(if, else if, else) in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day10_ControlFlowStatementsIF_ElseIf_Else)
 * [Day 11- Switch case in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day11_SwitchCase)
 * [Day 12- Ternary Operators in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day12_TernaryOperator)
-* [Day 13- Whilw...do while loops in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day13_WhileDoWhileLoops)
+* [Day 13- While...do while loops in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day13_WhileDoWhileLoops)
 * [Day 14- For loops in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day14_ForLoopBreakContinue)
 * [Day 15- Branching and Labelled Statements in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day15_BranchingLabeledStatements)
 * [Day 16- Methods-1 in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day16_Method1)
