@@ -24,3 +24,6 @@
 * [Day 13- Whilw...do while loops in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day13_WhileDoWhileLoops)
 * [Day 14- For loops in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day14_ForLoopBreakContinue)
 * [Day 15- Branching and Labelled Statements in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day15_BranchingLabeledStatements)
+* [Day 16- Methods-1 in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day16_Method1)
+* [Day 17- Methods-2 in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day17_Method2)
+* [Day 18- REVIEW_Methods in Java](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day18_REVIEW_Methods)
