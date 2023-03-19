@@ -12,7 +12,7 @@ public class ReverseInteger {
         System.out.println("Reversing an Integer.");
         //Write a java program to reverse a given integer number.
         //Example integer is 789
-        int sayi = 789; // output ---> reverseSayi = 987
+        int sayi = 7895; // output ---> reverseSayi = 987
         int lastDigit = 0;
         int reverseSayi = 0;
 
@@ -33,6 +33,10 @@ public class ReverseInteger {
 
        /* System.out.println("sayi        = " + sayi);
         System.out.println("Ters sayı   = " + reverseSayi);*/
+
+        lastDigit = sayi % 10; // lastDigit = 7
+        reverseSayi = reverseSayi * 10 + lastDigit;
+        sayi = sayi / 10; // say = 0
 
         lastDigit = sayi % 10; // lastDigit = 7
         reverseSayi = reverseSayi * 10 + lastDigit;
