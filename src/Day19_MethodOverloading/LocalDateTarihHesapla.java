@@ -11,9 +11,10 @@ import java.time.LocalDate;
 
 public class LocalDateTarihHesapla {
     public static int ageCalculate(int year){
-        LocalDate bugun = LocalDate.now();
+        //Java da tarih ile ilgili işlemler yapabileceğimiz Class lardan bir tanesi
+        LocalDate bugun = LocalDate.now(); //Şuanki tarihi ve ilgili verileri oluşturur.
         System.out.println(bugun);
-        int buYil = bugun.getYear();
+        int buYil = bugun.getYear(); //Şuanki tarihten yıl bilgisini almak için kullanılan metod .getYear()
         System.out.println("buYil = " + buYil);
         return buYil - year;
     }
