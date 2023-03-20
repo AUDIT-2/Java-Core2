@@ -8,6 +8,7 @@
 package Day19_MethodOverloading;
 
 public class MethodOverLoading {
+    //Klasik metodlar...Her bir işlem için yeni bir metod adı belirlememiz gerekir.
     public static int ikiSayiTopla(int aSayisi, int bSayisi){
         return aSayisi + bSayisi;
     }
@@ -17,7 +18,8 @@ public class MethodOverLoading {
     public static int dortSayiTopla(int a, int b, int c, int d){
         return a + b + c + d;
     }
-    //Method overloading
+
+    //Method overloading-Farklı sayıda ve farklı veri tiplerinde parametre alan aynı isimde metod yazabilmemizi sağlayan özellik.
     public static int topla(int a, int b){
         System.out.println("iki parametre alan method- int a, int b");
         return a + b;

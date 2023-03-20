@@ -7,7 +7,7 @@
 
 package Day19_MethodOverloading;
 
-public class MethodOverLoadingExp1 {
+public class MethodOverLoadingExample1 {
     public static void yazdir(String str){
         System.out.println(str);
     }
