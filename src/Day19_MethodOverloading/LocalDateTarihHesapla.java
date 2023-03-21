@@ -16,6 +16,7 @@ public class LocalDateTarihHesapla {
         System.out.println(bugun);
         int buYil = bugun.getYear(); //Şuanki tarihten yıl bilgisini almak için kullanılan metod .getYear()
         System.out.println("buYil = " + buYil);
+
         return buYil - year;
     }
     public static void main(String[] args) {
