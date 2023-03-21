@@ -29,6 +29,5 @@ public class TelevizyonTest {
         televizyon2.bilgileriniYaz();
         televizyon2.tvAc();
 
-        System.out.println("Merhaba .gitHUb)");
     }
 }
