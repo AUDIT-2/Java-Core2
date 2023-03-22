@@ -23,7 +23,8 @@ public class TelevizyonTest {
         televizyon1.kanalDegistir(78);
 
         televizyon1.tvAc();
-        televizyon1.sesYukselt(15);
+        televizyon1.sesAyarla(15);
+        televizyon1.tvStatus();
 
         Televizyon televizyon2 = new Televizyon("LG","LG-YX50XZT",55);
         televizyon2.bilgileriniYaz();
