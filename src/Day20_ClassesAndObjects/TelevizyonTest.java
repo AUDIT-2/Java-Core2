@@ -29,6 +29,5 @@ public class TelevizyonTest {
         Televizyon televizyon2 = new Televizyon("LG","LG-YX50XZT",55);
         televizyon2.bilgileriniYaz();
         televizyon2.tvAc();
-        System.out.println("Merhaba JAVA");
     }
 }
