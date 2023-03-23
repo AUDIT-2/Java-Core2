@@ -29,3 +29,4 @@
 * [Day 18- REVIEW_Methods in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day18_REVIEW_Methods)
 * [Day 19- Method Overloading in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day19_MethodOverloading)
 * [Day 20- Classes and Objects in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day20_ClassesAndObjects)
+* [Day 21- Memory Management and Garbage Collection in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day21_MemoryGarbageCollection)
