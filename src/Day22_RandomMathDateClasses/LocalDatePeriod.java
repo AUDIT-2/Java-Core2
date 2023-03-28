@@ -7,11 +7,14 @@
 
 package Day22_RandomMathDateClasses;
 
+import javax.swing.*;
+import java.time.Duration;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.Period;
 import java.util.Scanner;
 
-public class LocalDateTimePeriod {
+public class LocalDatePeriod {
 
 
     public static void main(String[] args) {
@@ -22,7 +25,6 @@ public class LocalDateTimePeriod {
         System.out.println("tempDate = " + tempDate);
 
         Period tarihAraligi = Period.between(tempDate,localDate);
-
 
         System.out.println("tarihAraligi = " + tarihAraligi);
         System.out.println("tarihAraligi.getYears() = " + tarihAraligi.getYears());
