@@ -32,7 +32,8 @@ public class SayiRakamToplami {
            return toplam;
        }else{
            System.out.println("Girdiğiniz sayı 1-1000 arasında bir tam sayı olmalıdır!");
-           return -1;
+           return -1;   //Metoda gönderilen parametrede kurallar uymayan bir durum
+                        //olduğunu metodu çağırana bildirmek için tercihen metodun normal çalışmasında döndürebileceği değerlerin dışında bir değer seçilbilir.
        }
     }
 }
