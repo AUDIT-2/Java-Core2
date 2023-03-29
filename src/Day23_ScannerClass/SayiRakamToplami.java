@@ -7,6 +7,8 @@ public class SayiRakamToplami {
     public static void main(String[] args) {
         int rakamToplma  = rakamTopla();
 
+        //rakamTopla() metodundan -1 gibi bir değer dönerse bir problem oluşmuş demektir.
+        //Dolayısıyla sonucu yazdırmaya gerek yok. 0'dan büyük bir değer dönerse sonuc yazdırıyoruz.
         if(rakamToplma > 0){
             System.out.println("Rakamların toplamı = " + rakamToplma);
         }
