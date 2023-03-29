@@ -31,3 +31,4 @@
 * [Day 20- Classes and Objects in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day20_ClassesAndObjects)
 * [Day 21- Memory Management and Garbage Collection in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day21_MemoryGarbageCollection)
 * [Day 22- Random-Math-Date Classes in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day22_RandomMathDateClasses)
+* [Day 23- User input-Scanner Class in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day23_ScannerClass)
