@@ -31,7 +31,7 @@ public class SayiRakamToplami {
            System.out.println("Sayınız " + basamakSayisi + " basamaklıdır.");
            return toplam;
        }else{
-           System.out.println("Giriğiniz sayı 1-1000 arasinda bir tam sayı olmalıdır!");
+           System.out.println("Girdiğiniz sayı 1-1000 arasında bir tam sayı olmalıdır!");
            return -1;
        }
     }
