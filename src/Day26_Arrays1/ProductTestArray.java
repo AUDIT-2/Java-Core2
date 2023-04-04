@@ -22,7 +22,7 @@ public class ProductTestArray {
         double toplamFiyat = 0;
         System.out.println("Sepetinizde toplam " + sepet.length + " adet ürün var.");
 
-        //There is an error with in loop. Please make corrections.
+        //There is an error in loop. Please make suitable corrections.
         for(Product urun :sepet){
             System.out.println("Ürünün adı    = " + urun.name);
             System.out.println("Birim Fiyatı  = " + urun.price);
