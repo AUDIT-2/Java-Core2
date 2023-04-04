@@ -8,21 +8,19 @@
 package Day25_StringClass2;
 
 public class ExampleRemoveDuplicate {
-public static String removeDuplicates(String str){
-    String result = "";
+    public static String removeDuplicates(String str) {
+        String result = "";
 
-    for (int i = 0; i < str.length(); i++) {
-       if(!result.contains(str.charAt(i) + "")){
-           result += str.charAt(i);
-       }
-
+        for (int i = 0; i < str.length(); i++) {
+            if (!result.contains(str.charAt(i) + "")) {
+                result += str.charAt(i);
+            }
+        }
+        return result;
     }
-   return result;
-}
 
     public static void main(String[] args) {
         String myStr = "DDEECKGDDEEEEFGGDCXDD";
         System.out.println("removeDuplicates(myStr) = " + removeDuplicates(myStr));
-
     }
 }

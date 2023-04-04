@@ -9,7 +9,7 @@ package Day25_StringClass2;
 
 import java.util.Scanner;
 
-public class StringExampleFirstLastName {
+public class ExampleFirstLastName {
 
     public static String fullName(String ad, String soyad) {
         String firstCharOfAd = ad.charAt(0) + "";

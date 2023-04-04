@@ -11,10 +11,10 @@ public class StringSubString {
     public static void main(String[] args) {
         String str = "Hello world";
         System.out.println(str.substring(6)); //world
-        System.out.println(str.substring(0,5)); //Hello
+        System.out.println(str.substring(0, 5)); //Hello
 
-       int index = str.indexOf("world");
+        int index = str.indexOf("world");
         System.out.println("str.substring(index) = " + str.substring(index));
 
-     }
+    }
 }

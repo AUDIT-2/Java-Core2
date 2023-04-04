@@ -16,14 +16,17 @@ public class StringIndexOf {
        int count = 0;
        int index = myStr.indexOf("planet");
         while (index > -1){
-            count++;
-            index = myStr.indexOf("planet");
             System.out.println("index no : " + index);
+            count++;
+            index = myStr.indexOf("planet",index+1);
+
+          /*  index = -1;
             if(myStr.indexOf("planet" , index + 1) > -1){
                 count++;
                 index = myStr.indexOf("planet");
                 System.out.println("index no : " + index);
-            } else index = -1;
+            } else index = -1;*/
         }
-}
+        System.out.println(count +" adet vardır.");
+    }
 }
