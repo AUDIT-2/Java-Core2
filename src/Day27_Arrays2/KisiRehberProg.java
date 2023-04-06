@@ -21,10 +21,18 @@ public class KisiRehberProg {
 
         System.out.println("Rehberimde kayıtlı kişilerin listesi");
         for (Kisi kisi :rehberim){
-           kisi.printInfo();
+            /*
+            System.out.println("kisi.adi = " + kisi.adi);
+            System.out.println("kisi.soyadi = " + kisi.soyadi);
+            System.out.println("kisi.telNo = " + kisi.telNo);
+            System.out.println("kisi.adres = " + kisi.adres);
+            */
+
+            kisi.printInfo();
         }
 
         Kisi.isimdenBul(rehberim,"Ahmet");
+        Kisi.listele(rehberim);
 
     }
 }
