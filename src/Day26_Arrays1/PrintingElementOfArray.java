@@ -40,9 +40,12 @@ public class PrintingElementOfArray {
         System.out.println();
 
         for(String eleman:isimler){
-            if (eleman.equals("Kadir")){
+            //Klasik if
+            /*if (eleman.equals("Kadir")){
                eleman = eleman.toUpperCase();
-            }
+            }*/
+            //Ternary
+            eleman = (eleman.equals("Kadir")) ? eleman.toUpperCase(): eleman;
             System.out.println("eleman = " + eleman);
         }
 

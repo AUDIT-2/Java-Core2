@@ -48,6 +48,27 @@ public class PassingArrayToMethod {
             }else System.out.println(eleman);
         }
     }
+    public static void diziyiYazYatay(String[] dizi){
+        System.out.println("Yatay olarak yazdırıyorum.");
+        System.out.println("---------------------------");
+
+        int k = 0;
+        for (String eleman: dizi){
+            System.out.print(eleman);
+            if(k!=dizi.length-1){
+                System.out.print(",");
+            }
+            k++;
+        }
+
+        System.out.println();
+        for (int i = 0; i < dizi.length; i++) {
+            System.out.print(dizi[i]);
+            if(i!=dizi.length-1){
+                System.out.print(",");
+            }
+        }
+    }
 
     public static void main(String[] args) {
         String[] sehirler = {"Ankara","Edirne","Kayseri","Malatya"};
@@ -61,5 +82,6 @@ public class PassingArrayToMethod {
         diziyiYazListe(sehirler,true);
         diziyiYazListe(sehirler,"Edirne");
 
+        diziyiYazYatay(sehirler);
     }
 }
