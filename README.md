@@ -35,3 +35,4 @@
 * [Day 24- String Class-1 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day24_StringClass1)
 * [Day 25- String Class-2 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day24_StringClass2)
 * [Day 26- Arrays-1 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day26_Arrays1)
+* [Day 27- Arrays-2 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day27_Arrays2)
