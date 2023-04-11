@@ -84,7 +84,7 @@ public class KutuphaneProgramiNEW {
         KitapNEW[] bulunanKitaplar = new KitapNEW[kutuphane.kitapSayisi];
         int count = 0;
         for (int i = 0; i < kutuphane.kitapSayisi; i++) {
-            if (kutuphane.kitaplar[i].equals(kitapAdi)) {
+            if (kutuphane.kitaplar[i].ismi.contains(kitapAdi)) {
                 bulunanKitaplar[count] = kutuphane.kitaplar[i];
                 count++;
             }
@@ -101,8 +101,16 @@ public class KutuphaneProgramiNEW {
         System.out.println("Kütüphane programına hoş geldiniz.");
         System.out.println();
         kutuphaneProg.kitapEkle();
-      //  kutuphaneProg.kitapYazarListe("aaa");
-        System.out.println( Arrays.toString(kutuphaneProg.isimdenKitapBul("aaa")));
+      //kutuphaneProg.kitapYazarListe("aaa");
+
+
+
+        System.out.println("İsimden kitap bul");
+        System.out.println("----------------------------------");
+        for (KitapNEW kitap : kutuphaneProg.isimdenKitapBul("aaa")) {
+            kitap.yazarlarListe();
+            kitap.printInfo();
+        }
 
     }
 }
