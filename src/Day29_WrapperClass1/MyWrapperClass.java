@@ -46,10 +46,10 @@ public class MyWrapperClass {
     }*/
 
     public static MyWrapperClass valueOf(int sayi){
-        return new MyWrapperClass(sayi);
+        return new MyWrapperClass(sayi); //Constructor call
     }
     public static MyWrapperClass valueOf(String strSayi){
-        return new MyWrapperClass(strSayi);
+        return new MyWrapperClass(strSayi); //Constructor call
     }
 
 }
