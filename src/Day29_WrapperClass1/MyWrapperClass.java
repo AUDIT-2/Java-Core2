@@ -20,6 +20,7 @@ public class MyWrapperClass {
 
     public int strToint(String str){
         int result = 0;
+       // result =  Integer.parseInt(str); //Integer classının .parseInt() metodunu kullanarak String i integer a çevirebiliriz.
         for (int i = 0; i < str.trim().length(); i++) {
             result *= 10;
             result += str.charAt(i) - 48; //ASCII code table value for '0'
