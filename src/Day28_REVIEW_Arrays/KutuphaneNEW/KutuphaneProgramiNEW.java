@@ -105,7 +105,7 @@ public class KutuphaneProgramiNEW {
 
 
 
-        System.out.println("İsimden kitap bul");
+        System.out.println("İsimden kitap bul...");
         System.out.println("----------------------------------");
         for (KitapNEW kitap : kutuphaneProg.isimdenKitapBul("aaa")) {
             kitap.yazarlarListe();
