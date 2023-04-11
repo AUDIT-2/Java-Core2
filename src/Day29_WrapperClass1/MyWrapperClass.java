@@ -22,7 +22,7 @@ public class MyWrapperClass {
         int result = 0;
         for (int i = 0; i < str.trim().length(); i++) {
             result *= 10;
-            result += str.charAt(i) - 48; //ASCII code table for '0'
+            result += str.charAt(i) - 48; //ASCII code table value for '0'
         }
         return result;
     }
@@ -44,12 +44,10 @@ public class MyWrapperClass {
    /* public static void valueOf(int sayi){
         value = sayi;
     }*/
-
     public static MyWrapperClass valueOf(int sayi){
         return new MyWrapperClass(sayi); //Constructor call
     }
     public static MyWrapperClass valueOf(String strSayi){
         return new MyWrapperClass(strSayi); //Constructor call
     }
-
 }
