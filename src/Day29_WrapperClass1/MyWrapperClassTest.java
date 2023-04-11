@@ -26,6 +26,12 @@ public class MyWrapperClassTest {
         MyWrapperClass myStrObj = new MyWrapperClass("98760");
         System.out.println("myStrObj.intValue() = " + myStrObj.intValue());
 
-        Integer sayi = Integer.valueOf(122334);
+        MyWrapperClass myWrpClas1 = MyWrapperClass.valueOf(129876);
+        System.out.println("myWrpClas1 = " + myWrpClas1.intValue());
+
+        MyWrapperClass myWrpClas2 = MyWrapperClass.valueOf("9876122");
+        System.out.println("myWrpClas2 = " + myWrpClas2.intValue());
+
+
     }
 }

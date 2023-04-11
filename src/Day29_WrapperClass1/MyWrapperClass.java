@@ -41,7 +41,15 @@ public class MyWrapperClass {
     public double doubleValue(){
         return (double) value;
     }
-    public static void valueOf(int sayi){
+   /* public static void valueOf(int sayi){
         value = sayi;
+    }*/
+
+    public static MyWrapperClass valueOf(int sayi){
+        return new MyWrapperClass(sayi);
     }
+    public static MyWrapperClass valueOf(String strSayi){
+        return new MyWrapperClass(strSayi);
+    }
+
 }
