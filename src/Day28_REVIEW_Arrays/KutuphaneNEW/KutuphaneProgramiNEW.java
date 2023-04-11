@@ -107,10 +107,15 @@ public class KutuphaneProgramiNEW {
 
         System.out.println("İsimden kitap bul...");
         System.out.println("----------------------------------");
-        for (KitapNEW kitap : kutuphaneProg.isimdenKitapBul("aaa")) {
-            kitap.yazarlarListe();
-            kitap.printInfo();
-        }
+
+
+        if( kutuphaneProg.isimdenKitapBul("aaa") !=null){
+            for (KitapNEW kitap : kutuphaneProg.isimdenKitapBul("aaa")) {
+                kitap.yazarlarListe();
+                kitap.printInfo();
+            }
+        }else System.out.println("Aradığınız kitap kütüphanede yok");
+
 
     }
 }
