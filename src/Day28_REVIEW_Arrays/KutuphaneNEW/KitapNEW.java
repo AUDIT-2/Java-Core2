@@ -5,23 +5,19 @@
  * armada.dscrd@gmail.com
  */
 
-package Day28_REVIEW_Arrays.Kutuphane;
+package Day28_REVIEW_Arrays.KutuphaneNEW;
 
-import java.util.Arrays;
-
-public class Kitap {
+public class KitapNEW {
     String ismi;
-    Yazar[] yazarlar = new Yazar[30];//YazarNEW klası
     String yayinEvi;
     String isbn;
     int basimYili;
     int sayfaSayisi;
     String turu;
 
-    public Kitap() {
-    }
+    YazarNEW[] yazarlar;
 
-    public Kitap(String ismi, Yazar[] yazarlar, String yayinEvi, String isbn, int basimYili, int sayfaSayisi, String turu) {
+    public KitapNEW(String ismi, String yayinEvi, String isbn, int basimYili, int sayfaSayisi, String turu, YazarNEW[] yazarlar) {
         this.ismi = ismi;
         this.yazarlar = yazarlar;
         this.yayinEvi = yayinEvi;
@@ -31,19 +27,24 @@ public class Kitap {
         this.turu = turu;
     }
 
-    public void printInfo(){
+    public YazarNEW[]yazarlarListe() {
+        return yazarlar;
+    }
+
+    public void printInfo() {
         System.out.println("Kitabın ad          : " + ismi);
         System.out.println("Kitabın türü        : " + turu);
         System.out.println("Kitabın sayfa adedi : " + sayfaSayisi);
         System.out.println("Kitabın basım yılı  : " + basimYili);
         System.out.println("Kitabın ISBN no     : " + isbn);
         System.out.println("Kiyabın Yayınevi    : " + yayinEvi);
-       // System.out.println("Kitabın yazarları   : " + Arrays.toString(yazarlar));
+
+        System.out.println("Kitabın yazarı/yazarları");
+        System.out.println("-------------------------------------");
         for (int i = 0; i < yazarlar.length; i++) {
-            if(yazarlar[i] != null){
+            if (yazarlar[i] != null) {
                 yazarlar[i].printInfo();
             }
-
         }
     }
 }
