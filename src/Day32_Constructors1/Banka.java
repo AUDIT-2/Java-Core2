@@ -42,11 +42,14 @@ public class Banka {
     }
 
     public void musteriBulHesapNo(int hesapNo){
+        System.out.println("Hesap numarasından Müşteri bul metodu.");
+        System.out.println("---------------------------------------");
         int count = 0;
         for (Musteri musteri :musteriler){
             if(musteri.hesapNo == hesapNo){
                 count++;
                 musteri.showInfo();
+                //Hesap numaraları tekil olacağından bir hesapno bulduğunda listedeki diğerlerine bakmaya gerek yok.
                break;
             }
         }
@@ -56,14 +59,17 @@ public class Banka {
     }
 
     public void musteriBulAd(String ad){
+        System.out.println("İsimden Müşteri bul metodu.");
+        System.out.println("---------------------------------------");
         int count = 0;
         for (Musteri musteri :musteriler){
             if(musteri.adi.equalsIgnoreCase(ad)){
                 count++;
                 musteri.showInfo();
-                break;
+                //Aynı isimde birden fazla müşteri olabileceğinden müşteriler listesini baştan sona dolaşmak gerekir.
             }
         }
+        System.out.println(count + " adet " + ad + " isimli müşteri bulundu.");
         if(count == 0) {
             System.out.println(ad + " isim ile kayıtlı müşteri yok!");
         }

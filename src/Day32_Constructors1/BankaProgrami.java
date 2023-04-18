@@ -11,7 +11,7 @@ public class BankaProgrami {
     public static void main(String[] args) {
         Banka banka = new Banka("ABC Bank", "Ankara-Çankaya");
 
-        Musteri musteri1 = new Musteri("Ahmet", "12345678901", 5555678900L, 1000);
+        Musteri musteri1 = new Musteri("Ali", "12345678901", 5555678900L, 1000);
         Musteri musteri2 = new Musteri("Hatice", "56345678905", 5355878950L, 1000);
         Musteri musteri3 = new Musteri("Ali", "56323678905", 5325878950L, 1000);
         Musteri musteri4 = new Musteri("Zeki", "56345678455", 5335878950L, 1000);
@@ -33,8 +33,9 @@ public class BankaProgrami {
         System.out.println("musteri2.getBakiye() = " + musteri2.getBakiye());
 
         banka.showInfo();
+        System.out.println();
 
-        banka.musteriBulHesapNo(1001);
+        banka.musteriBulHesapNo(1005);
         System.out.println();
         banka.musteriBulAd("ALİ");
     }
