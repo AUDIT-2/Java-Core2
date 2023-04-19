@@ -39,3 +39,6 @@
 * [Day 28- REVIEW Arrays](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day28_REVIEW_Arrays)
 * [Day 29- Wrapper Classes-1 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day29_WrapperClass1)
 * [Day 30- Wrapper Classes-2 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day30_WrapperClass2)
+* [Day 31- ArrayList in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day31_ArrayList)
+* [Day 32- Constructors-1 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day32_Constructors1)
+* [Day 33- Constructors-2 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day32_Constructors2)
