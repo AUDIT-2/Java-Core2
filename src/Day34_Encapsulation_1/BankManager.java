@@ -25,13 +25,17 @@ public class BankManager {
 
        bank.addCustomer(customer1);
        bank.addCustomer(customer2);
+
+       System.out.println("****  Banka müşterileri listeleme ****");
        bank.showCustomers();
 
-       System.out.println("*************************************");
+       System.out.println("******** Para yatırma örneği *********");
        customer2.hesabaParaYatir(account2,450);
        customer2.showAccounts();
 
-       System.out.println("*************************************");
-       bank.showCustomers();
+
+       System.out.println("********* Para Çekme örneği *********");
+       customer2.hesaptanParaCek(account2,1450);
+       customer2.showAccounts();
     }
 }
