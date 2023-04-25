@@ -34,9 +34,7 @@ public class Kurs {
 
     public String ogrenciListe(){
         String str = "";
-
-
-        for (Ogrenci ogrenci :ogrenciler){
+     for (Ogrenci ogrenci :ogrenciler){
            /* str += ogrenci.number + "\t\t" + ogrenci.name + "\t\t" + ogrenci.city + "\t\t" + ogrenci.country + "\n";*/
             str += ogrenci.ogrenciListeFormatted();
         }
@@ -51,6 +49,7 @@ public class Kurs {
         str += "No         Ad              Şehir                     Ülke\n";
         str += "---------  --------------- ------------------------  ------------------------ \n";
         str += ogrenciListe();
+
         return  str;
     }
 }

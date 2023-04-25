@@ -24,6 +24,6 @@ public class ProductTest {
     }
     public static void birMetod(){ //Stack memory de yer alır.
         int birDegisken = 0; // stack memory.
-        System.out.println("Ben stack hafızda olan bir metodum");
+        System.out.println("Ben stack hafızada olan bir metodum");
     }
 }
