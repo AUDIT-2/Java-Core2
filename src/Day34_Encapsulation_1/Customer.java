@@ -37,6 +37,9 @@ public class Customer {
     public void hesabaParaYatir(Account account, int ammount){
         account.deposit(ammount);
     }
+    public void hesaptanParaCek(Account account, int ammount){
+        account.withdraw(ammount);
+    }
     public void showAccounts(){
         for (Account account: getAccounts()) {
             System.out.println("Name of customer : " + this.getName());
