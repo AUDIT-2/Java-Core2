@@ -28,8 +28,8 @@ public class Teacher {
         return teacherId;
     }
 
-    public void setTeacherId(int id) {
-        this.teacherId = id;
+    public void setTeacherId(int teacherId) {
+        this.teacherId = teacherId;
     }
 
     public String getName() {

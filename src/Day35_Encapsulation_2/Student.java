@@ -15,9 +15,9 @@ public class Student {
 
     public Student(String name, double payment) {
         setId();
+        setStudentId(id);
         setName(name);
         setPayment(payment);
-        setStudentId(id);
     }
 
     private void setId(){
