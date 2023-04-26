@@ -64,7 +64,35 @@ public class Lesson {
     public void setStudents(ArrayList<Student> students) {
         this.students = students;
     }
+    public void addStudent(Student student){
+        students.add(student);
+    }
+    public void addTeacher(Teacher teacher){
+        teachers.add(teacher);
+    }
 
+    public String showTeachers(){
+        String str = this.lessonName + " - Teacher List \n";
+        str+="------------------------------------\n";
+        str+="Sn\tTeacher Id\tTeacher Name\n";
+        str+="--\t----------\t--------------------\n";
+        int sNo = 1;
+        for (Teacher teacher:teachers){
+            str+= sNo++ + "-\t" + teacher.getTeacherId() + "\t\t" + teacher.getName() + "\n";
+        }
+        return str;
+    }
+    public String showStudents(){
+        String str = this.lessonName + " - Student List \n";
+        str+="------------------------------------\n";
+        str+="Sn\tStudent Id\tStudent Name\n";
+        str+="--\t----------\t--------------------\n";
+        int sNo = 1;
+        for (Student student:students){
+            str+= sNo++ + "-\t" + student.getStudentId()+ "\t\t" + student.getName() + "\n";
+        }
+        return str;
+    }
     @Override
     public String toString() {
         return "Lesson{" +
