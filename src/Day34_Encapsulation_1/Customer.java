@@ -7,6 +7,8 @@
 
 package Day34_Encapsulation_1;
 
+import Day36_StaticClassMembers_1.HesapMakinesi;
+
 import java.util.ArrayList;
 
 public class Customer {
