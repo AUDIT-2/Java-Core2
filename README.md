@@ -42,3 +42,6 @@
 * [Day 31- ArrayList in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day31_ArrayList)
 * [Day 32- Constructors-1 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day32_Constructors1)
 * [Day 33- Constructors-2 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day32_Constructors2)
+* [Day 34- Encapsulation-1 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day34_Encapsulation_1)
+* [Day 35- Encapsulation-2 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day35_Encapsulation_2)
+* [Day 36- Static Class Members-1 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day36_StaticClassMembers_1)
