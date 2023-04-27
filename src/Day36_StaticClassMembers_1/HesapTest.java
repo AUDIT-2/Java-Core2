@@ -14,5 +14,8 @@ public class HesapTest {
 
        // HesapMakinesi hsp = new HesapMakinesi(); Cannot create an object
 
+        HesapMakinesi.topla(2,3,5,6,71,12,45,678);
+        System.out.println("HesapMakinesi.result = " + HesapMakinesi.result);
+
     }
 }
