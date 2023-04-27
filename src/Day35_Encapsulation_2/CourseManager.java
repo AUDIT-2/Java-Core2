@@ -91,7 +91,7 @@ public class CourseManager {
         System.out.println("lesson2.showStudents() = " + lesson2.showStudents());*/
 
         addStudent(course1);
-        System.out.println("course1.showStudents() = " + course1.showStudents());
+        System.out.println(course1.showStudents());
     }
 
 
