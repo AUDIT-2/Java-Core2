@@ -39,7 +39,7 @@ public class MagazaProg {
         Fatura fatura = new Fatura(new Date(),sepet);
         System.out.println(fatura);
 
-        //3 saniye bakleyip yeni bir fatur yazdırıyoruz
+        //3 saniye bakleyip yeni bir fatura yazdırıyoruz
         System.out.println();
         Thread.sleep(3000);
 
