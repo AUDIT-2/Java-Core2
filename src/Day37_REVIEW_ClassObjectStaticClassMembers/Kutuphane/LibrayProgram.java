@@ -43,7 +43,5 @@ public class LibrayProgram {
         library.listAuthorsBooks("Anonim");
         library.listAuthorsBooks("Yaşar Kemal");
         library.listAuthorsBooks("Atatürk");
-
-
     }
 }
