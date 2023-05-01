@@ -62,13 +62,17 @@ public class Library {
     }
 
     public void listAuthorsBooks(String name){
+        System.out.println("Name of Author : " + name);
+        System.out.println("------------------------------");
+        System.out.println("Books :");
         for (Book book:books){
             for (Author author: book.getAuthors()){
                 if(author.getName().equalsIgnoreCase(name)){
-                    System.out.println(book);
+                  System.out.println("   " + book.getInfo());
                 }
             }
         }
+        System.out.println();
     }
 
     @Override

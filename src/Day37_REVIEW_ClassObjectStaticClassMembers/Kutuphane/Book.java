@@ -81,6 +81,10 @@ public class Book {
         authors.add(author);
     }
 
+    public String getInfo(){
+        return getBookNumber() + "-" + getTitle() + " " + getType() +  " " + getPublisher() + " " + getISBN();
+    }
+
     @Override
     public String toString() {
         return "Book{" +
@@ -89,7 +93,7 @@ public class Book {
                 ", type='" + type + '\'' +
                 ", publisher='" + publisher + '\'' +
                 ", ISBN='" + ISBN + '\'' +
-                ", authors=" + authors +
+                ", authors=" + getAuthors() +
                 '}';
     }
 
