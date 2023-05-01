@@ -33,6 +33,7 @@ public class LibrayProgram {
         library.addBook(book1);
         library.addBook(book2);*/
 
+        //VarArgs
         library.addBook(book,book1,book2);
 
         System.out.println("library = " + library);
