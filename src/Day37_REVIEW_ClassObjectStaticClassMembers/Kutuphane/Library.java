@@ -8,6 +8,7 @@
 package Day37_REVIEW_ClassObjectStaticClassMembers.Kutuphane;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Library {
     private String name;
@@ -50,9 +51,12 @@ public class Library {
         books.add(book);
     }
     public void addBook(Book... books){
-        for (Book book:books){
+        //Old way
+       /* for (Book book:books){
             this.books.add(book);
-        }
+        }*/
+
+        this.books.addAll(Arrays.asList(books));
     }
 
     public void listBooks(){

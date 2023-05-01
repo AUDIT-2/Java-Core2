@@ -8,6 +8,7 @@
 package Day37_REVIEW_ClassObjectStaticClassMembers.Kutuphane;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Book {
     private static int id = 1000;
@@ -81,6 +82,13 @@ public class Book {
         authors.add(author);
     }
 
+    public void addAuthor(Author... authors){
+        //VarArgs
+       /* for (Author author:authors){
+            this.authors.add(author);
+        }*/
+        this.authors.addAll(Arrays.asList(authors));
+    }
     public String getInfo(){
         return getBookNumber() + "-" + getTitle() + " " + getType() +  " " + getPublisher() + " " + getISBN();
     }
