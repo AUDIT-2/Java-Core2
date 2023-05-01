@@ -35,7 +35,6 @@ public class MagazaProg {
         sepet.addSepetUrun(product8,product9,product10);
         sepet.addSepetUrun(new Product("Sıvı Yağ",135,1,"Gıda"));
 
-
         Fatura fatura = new Fatura(new Date(),sepet);
         System.out.println(fatura);
 
