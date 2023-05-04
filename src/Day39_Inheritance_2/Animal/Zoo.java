@@ -14,10 +14,10 @@ public class Zoo {
     private String name;
     private String address;
 
-    private ArrayList<Dog> dogs;
-    private ArrayList<Bird> birds;
-    private ArrayList<Animal> animals;
-    private ArrayList typeless;
+    private ArrayList<Dog> dogs; //Instance of Dog class can be added to this arraylist
+    private ArrayList<Bird> birds; //Instance of Bird class can be added to this arraylist
+    private ArrayList<Animal> animals; //Instance of Animal and any child of Animal class can be added to this arraylist
+    private ArrayList typeless; //Instance of any Object class can be added to this arraylist
 
     public Zoo(String name, String address){
         dogs = new ArrayList<>();
