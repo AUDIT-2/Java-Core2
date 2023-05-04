@@ -30,18 +30,18 @@ public class ZooTest {
         }
 
         for(Object obj: zoo1.getTypeless()){
-            if(obj instanceof Dog){
+            if(obj instanceof Dog){ // rastladığımız obj Dog sınıfından ise
                 System.out.println("Dogs");
                 System.out.println("------------");
                 System.out.println(obj);
             }
-            if(obj instanceof Bird){
+            if(obj instanceof Bird){ // rastladığımız obj Bird sınıfından ise
                 System.out.println("Birds");
                 System.out.println("------------");
                 System.out.println(obj);
             }
 
-            if(obj instanceof Integer){
+            if(obj instanceof Integer){ // rastladığımız obj Integer sınıfından ise
                 System.out.println("I am an Integer");
                 System.out.println(obj);
                 System.out.println("İki katı = " + (((Integer) obj) * 2));
@@ -61,11 +61,11 @@ public class ZooTest {
 
         for (Animal animal: zoo1.getAnimals()){
             System.out.println(animal);
-            animal.makeSound();
-            animal.eat();
-            if (animal instanceof Bird){
+            animal.makeSound(); //Parent (Animal) sınıfının ya da override edilmiş child sınıfın metodları
+            animal.eat(); //Parent (Animal) sınıfının ya da override edilmiş child sınıfın metodları
+            if (animal instanceof Bird){ // rastladığımız animal Bird sınıfından ise
                 System.out.println("Ben bir kuşum..");
-                ((Bird) animal).fly();
+                ((Bird) animal).fly(); // Bird sınıfına cast(dönüştür) ediyoruz. Ve Bird sınıfına özel metoda erişebiliyoruz.
             }
         }
     }
