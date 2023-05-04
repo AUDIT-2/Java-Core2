@@ -8,15 +8,14 @@
 package Day39_Inheritance_2.Animal;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class Zoo {
     private String name;
     private String address;
 
-    private ArrayList<Dog> dogs; //Instance of Dog class can be added to this arraylist
-    private ArrayList<Bird> birds; //Instance of Bird class can be added to this arraylist
-    private ArrayList<Animal> animals; //Instance of Animal and any child of Animal class can be added to this arraylist
+    private ArrayList<Dog> dogs; //Instance of only Dog class can be added to this arraylist
+    private ArrayList<Bird> birds; //Instance of only Bird class can be added to this arraylist
+    private ArrayList<Animal> animals; //Instance of only Animal and any child of Animal class can be added to this arraylist
     private ArrayList typeless; //Instance of any class(Integer,String....) can be added to this arraylist
 
     public Zoo(String name, String address){
@@ -43,20 +42,20 @@ public class Zoo {
     }
 
     public void addDog(Dog dog){
-        dogs.add(dog);
-        typeless.add(dog);
+        dogs.add(dog); //instance of only Dog Class can be added
+        typeless.add(dog); //instance of any Class can be added
     }
     public void addBird(Bird bird){
-        birds.add(bird);
-        typeless.add(bird);
-        animals.add(bird);
+        birds.add(bird); //instance of only Bird Class can be added
+        typeless.add(bird); //instance of any Class can be added
+        animals.add(bird); //Instance of only Animal and any child of Animal class can be added
 
-        typeless.add("Merhaba");
-        typeless.add(1234);
+        typeless.add("Merhaba"); //instance of any Class can be added
+        typeless.add(1234); //instance of any Class can be added
     }
 
     public void addAnimal(Animal animal){
-        animals.add(animal);
+        animals.add(animal); //Instance of only Animal and any child of Animal class can be added
     }
     public ArrayList getTypeless(){
         return typeless;
