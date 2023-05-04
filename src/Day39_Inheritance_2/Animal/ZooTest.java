@@ -14,7 +14,6 @@ public class ZooTest {
         zoo1.addDog(new Dog("Boby",5,"Beyaz"));
         zoo1.addDog(new Dog("Karabaş",15,"Black"));
 
-
         for (Dog dog: zoo1.getDogs()){
             System.out.println(dog);
         }
@@ -46,6 +45,12 @@ public class ZooTest {
                 System.out.println(obj);
                 System.out.println("İki katı = " + (((Integer) obj) * 2));
             }
+            if(obj instanceof String){ // rastladığımız obj String sınıfından ise
+                System.out.println("I am an String");
+                System.out.println(obj);
+                System.out.println("Uppercase : " + ((String) obj).toUpperCase());
+            }
+
         }
 
         System.out.println("---------------------------------");
