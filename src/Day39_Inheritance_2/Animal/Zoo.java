@@ -17,7 +17,7 @@ public class Zoo {
     private ArrayList<Dog> dogs; //Instance of Dog class can be added to this arraylist
     private ArrayList<Bird> birds; //Instance of Bird class can be added to this arraylist
     private ArrayList<Animal> animals; //Instance of Animal and any child of Animal class can be added to this arraylist
-    private ArrayList typeless; //Instance of any Object class can be added to this arraylist
+    private ArrayList typeless; //Instance of any class(Integer,String....) can be added to this arraylist
 
     public Zoo(String name, String address){
         dogs = new ArrayList<>();
