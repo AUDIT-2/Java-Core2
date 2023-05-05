@@ -15,7 +15,7 @@ public class Bird extends Animal{
 
     @Override
     public void eat(){
-        System.out.println("I am a bird. I am eating only wheats an warms.");
+        System.out.println("I am a bird. I am eating only wheats and warms.");
     }
     @Override
     public void makeSound(){
