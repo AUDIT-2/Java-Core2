@@ -17,7 +17,7 @@ public class ClassPackageA extends AccessModifiers{
         obj.name = "Ahmet"; //Public
         // obj.id = 1234; //Private- Can access only within same class
         // obj.TCNo = "1234556678"; //Protected-Same package
-        // obj.okulNo = 5667; //Default //Same package
+        // obj.okulNo = 5667; //Default- to access the field class must be within Same package
 
         //Private-Only same class members can access.
         /* int toplam = obj.privateToplam(12,5);
