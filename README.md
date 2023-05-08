@@ -47,3 +47,5 @@
 * [Day 36- Static Class Members-1 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day36_StaticClassMembers_1)
 * [Day 37- REVIEW-Class & Objects Static Class Members-2 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day37_REVIEW_ClassObjectStaticClassMembers)
 * [Day 38- Inheritance-1 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day38_Inheritance_1)
+* [Day 39- Inheritance-2 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day38_Inheritance_2)
+* [Day 40- AccessModifiers in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day40_AccessModifiers)
