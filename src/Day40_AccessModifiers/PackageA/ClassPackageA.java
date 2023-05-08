@@ -27,6 +27,7 @@ public class ClassPackageA extends AccessModifiers{
         // obj.defMethod();
         obj.pubMethod();
 
+        //Protected-->child-parent
         ClassPackageA obje1 = new ClassPackageA(); //ClassPackageA is a child-sub class of AccessModifiers class
 
         obje1.name = "Ali"; //defined public in AccessModifiers
