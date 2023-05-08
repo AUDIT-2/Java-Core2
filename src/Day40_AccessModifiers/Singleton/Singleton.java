@@ -30,4 +30,10 @@ public class Singleton {
         return singletonInstance;
     }
 
+   /* public static Singleton getSingletonInstance(){ //It creates only one instance
+        if(singletonInstance == null){
+            singletonInstance = new Singleton();
+        }
+        return singletonInstance;
+    }*/
 }
