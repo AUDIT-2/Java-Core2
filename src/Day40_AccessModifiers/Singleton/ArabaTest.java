@@ -9,11 +9,12 @@ package Day40_AccessModifiers.Singleton;
 
 public class ArabaTest {
     public static void main(String[] args) {
-       Araba.setMaxInstance(3);
+       Araba.setMaxInstance(5);
        Araba araba1 = Araba.instanceOlustur();
        Araba araba2 = Araba.instanceOlustur();
        Araba araba3 = Araba.instanceOlustur();
        Araba araba4 = Araba.instanceOlustur();
+       Araba araba5 = Araba.instanceOlustur("Ford","Taunus");
 
         if (araba1 !=null) {
             araba1.setMarka("Toyota");
@@ -38,6 +39,7 @@ public class ArabaTest {
         System.out.println(araba2);
         System.out.println(araba3);
         System.out.println(araba4);
+        System.out.println(araba5);
 
         System.out.println("Araba.getNumberOfInstance() = " + Araba.getNumberOfInstance());
     }

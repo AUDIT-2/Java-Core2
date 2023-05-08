@@ -8,27 +8,38 @@
 package Day40_AccessModifiers.Singleton;
 
 public class Araba {
-    private static Araba instance; //Obje
-    private static int numberOfInstance;
-    private static int maxInstance;
+    private static Araba instance; //Metod ile oluşturulan instance ı tutan değişken
+    private static int numberOfInstance; // Oluşturulan instance sayısı
+    private static int maxInstance; //Oluşturulabilecek maksimum instance sayısı
 
     private String marka;
     private String model;
 
+    //Private No-args Constructor
     private Araba(){
-        numberOfInstance++;
+        numberOfInstance++; //Oluşturulan instance sayısı
     }
+
+    //Private constructor with args
     private Araba(String marka, String model){
         setMarka(marka);
         setModel(model);
     }
 
-   public static Araba instanceOlustur(){
+    //Constructor lar private tanımlandığından ancak bu metod ile instance oluşturulabilir.
+    public static Araba instanceOlustur(){
         if(numberOfInstance < maxInstance){
-            instance = new Araba();
+            instance = new Araba(); //No-args constructor call
         } else instance = null;
-        return instance;
-   }
+        return instance; //Oluşturulan instance i döndürür.
+    }
+
+    public static Araba instanceOlustur(String marka, String model){
+        if(numberOfInstance < maxInstance){
+            instance = new Araba(marka,model); //Args constructor call
+        } else instance = null;
+        return instance; //Oluşturulan instance i döndürür.
+    }
     public static int getNumberOfInstance() {
         return numberOfInstance;
     }
@@ -65,7 +76,7 @@ public class Araba {
     @Override
     public String toString() {
         String str = "";
-            str = "Instance Adres : " + System.identityHashCode(this) + "\n";
+            str = "Instance Adres : " + System.identityHashCode(this) + "\n"; //Instance ın memory adresini yazar
             str += "Marka  : " + marka + "\n";
             str += "Model  : " + model+ "\n";
         return str;
