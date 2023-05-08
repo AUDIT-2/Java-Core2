@@ -12,17 +12,20 @@ public class ClassA {
         System.out.println("Access modifiers in Java. Accessing different class with in same package.");
         AccessModifiers obj = new AccessModifiers();
 
-        obj.name = "Ahmet"; //Public
-       // obj.id = 1234; //Private- Can access only within same class
-        obj.TCNo = "1234556678"; //Protected-Same package
-        obj.okulNo = 5667; //Default //Same package
+        //Private-Aynı paket içerisinde olsak bile private tanımlanmış bir üyeye erişemeyiz.
+        //obj.id = 122;
+        //obj.privateToplam(12,5)
 
-        //Private-Only same class members can access.
-       /* int toplam = obj.privateToplam(12,5);
-        System.out.println("toplam = " + toplam);*/
-
-        obj.proMethod();
+        //Default-Aynı paket içerisinde olduğumuzdan default tanımlı bir üyeye erişebiliriz.
+        obj.okulNo = 5667;
         obj.defMethod();
+
+        //Protected-Aynı paket içerisinde olduğumuzdan protected tanımlı bir üyeye erişebiliriz.
+        obj.TCNo = "1234556678";
+        obj.proMethod();
+
+        //Public-Public tanımlı üyelere farklı paketlerde de olsalar bütün class lar erişebilir.
+        obj.name = "Ahmet";
         obj.pubMethod();
     }
 }

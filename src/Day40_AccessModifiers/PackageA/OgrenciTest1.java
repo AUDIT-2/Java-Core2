@@ -11,10 +11,11 @@ import Day40_AccessModifiers.Constructor.Ogrenci;
 
 public class OgrenciTest1 extends Ogrenci {
     public OgrenciTest1() {
+        super();//No-arg constructor of parent class
     }
 
-    public OgrenciTest1(String ad, String soyad, int okulNo) {
-        super(ad, soyad, okulNo);
+    public OgrenciTest1(String ad, String soyad, int okulNo) { //Protected tanımlandığı için miras ilişkisi kurulduktan sonra instance oluşturulabilir.
+        super(ad, soyad, okulNo); //Args constructor of parent class
     }
 
     public static void main(String[] args) {
