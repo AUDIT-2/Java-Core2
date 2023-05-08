@@ -29,12 +29,11 @@ public class ClassPackageA extends AccessModifiers{
 
         ClassPackageA obje1 = new ClassPackageA(); //ClassPackageA is a child-sub class of AccessModifiers class
 
-        obje1.name = "Ali"; //public
-        obje1.TCNo = "123718327"; //protected
-        obje1.proMethod(); //Protected method
-        obje1.pubMethod(); //Public method
+        obje1.name = "Ali"; //defined public in AccessModifiers
+        obje1.TCNo = "123718327"; //defined protected in AccessModifiers
+        obje1.proMethod(); //defined Protected method in AccessModifiers- has inheritance relationship
+        obje1.pubMethod(); //defined Public method in AccessModifiers
 
-        //obje1.defMethod();
+        //obje1.defMethod(); //defined default method in AccessModifiers therefore can not be accessed
     }
-
 }
