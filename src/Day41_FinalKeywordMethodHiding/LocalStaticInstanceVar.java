@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day41_Final;
+package Day41_FinalKeywordMethodHiding;
 
 public class LocalStaticInstanceVar {
     //Instance-Object variables-Every instance of this class has own copy of these variables.Access modifiers can be used

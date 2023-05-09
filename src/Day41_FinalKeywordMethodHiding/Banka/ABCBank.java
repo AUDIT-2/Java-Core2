@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day41_Final.Banka;
+package Day41_FinalKeywordMethodHiding.Banka;
 
 public class ABCBank extends Banka{
     private float rate = 0.08f; //Parent class rate variable is hided in child class
@@ -22,7 +22,7 @@ public class ABCBank extends Banka{
     public String toString() {
         return "ABCBank{" +
                 "Myrate=" + this.rate + " " +
-                "ParentRate = " + super.rate +
-                "} " + super.toString();
+                "ParentRate = " + super.rate + //Parent class rate variable
+                "} " + super.toString(); //Parent class toString() method
     }
 }

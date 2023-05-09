@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day41_Final;
+package Day41_FinalKeywordMethodHiding;
 
 public class LocalStaticInstanceTEST {
     public static void main(String[] args) {

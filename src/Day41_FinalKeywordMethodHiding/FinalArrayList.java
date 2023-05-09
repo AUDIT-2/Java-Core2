@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day41_Final;
+package Day41_FinalKeywordMethodHiding;
 
 import java.util.ArrayList;
 import java.util.Arrays;

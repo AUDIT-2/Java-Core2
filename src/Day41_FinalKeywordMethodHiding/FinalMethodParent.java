@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day41_Final;
+package Day41_FinalKeywordMethodHiding;
 
 public class FinalMethodParent {
     final double KDV_18 = 0.18;

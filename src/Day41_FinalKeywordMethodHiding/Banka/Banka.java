@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day41_Final.Banka;
+package Day41_FinalKeywordMethodHiding.Banka;
 
 public class Banka {
     //Parent class
