@@ -8,7 +8,7 @@
 package Day41_Final.Banka;
 
 public class XYZBank extends Banka {
-    private float rate = 0.09f;
+    private float rate = 0.09f; //Parent class rate variable is hided in child class
 
     @Override
     public float getRateOfInterest(){
