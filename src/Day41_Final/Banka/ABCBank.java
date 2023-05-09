@@ -21,7 +21,7 @@ public class ABCBank extends Banka{
     @Override
     public String toString() {
         return "ABCBank{" +
-                "Myrate=" + rate + " " +
+                "Myrate=" + this.rate + " " +
                 "ParentRate = " + super.rate +
                 "} " + super.toString();
     }
