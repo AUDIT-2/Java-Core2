@@ -35,9 +35,9 @@ public class FinalArrayList {
         System.out.println();
         System.out.println("Final ArrayList :" + Arrays.asList(obj.fnlArrayList));
 
-        obj.arrayList = obj.fnlArrayList;
+        obj.arrayList = obj.fnlArrayList; // obj.arrayList is not final therefore it can be assigned by another arrayList
         System.out.println("ArrayList :" + Arrays.asList(obj.arrayList));
 
-       // obj.fnlArrayList = obj.arrayList; Error
+       // obj.fnlArrayList = obj.arrayList; Error  obj.fnlArrayList declared as final therefore it can not be assigned by another arrayList
     }
 }

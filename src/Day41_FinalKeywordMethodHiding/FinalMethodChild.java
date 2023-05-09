@@ -9,6 +9,7 @@ package Day41_FinalKeywordMethodHiding;
 
 public class FinalMethodChild extends FinalMethodParent{
 
+    //Declared as final in Parent Class therefore child classes can not override this method
    /* @Override
     public double kdvHesapla(double fiyat){
         return (fiyat * 0.08 + fiyat);

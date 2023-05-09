@@ -52,6 +52,5 @@ public class FinalArray {
 
         System.out.println("FINAL ARRAY");
        // obj.fnlArrayNumber = birArray; Error- fnlArrayNumber declared as final, can not be assigned another arrays reference
-
     }
 }
