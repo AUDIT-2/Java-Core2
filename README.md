@@ -49,3 +49,5 @@
 * [Day 38- Inheritance-1 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day38_Inheritance_1)
 * [Day 39- Inheritance-2 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day38_Inheritance_2)
 * [Day 40- AccessModifiers in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day40_AccessModifiers)
+* [Day 41- Final Keyword in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day41_FinalKeywordMethodHiding)
+* [Day 42- Abstract Class in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day42_Abstraction)
