@@ -59,6 +59,6 @@ public class AracTest {
         System.out.println(sedan2.getClass());
 
         sedan1.sedanMetod();
-        ((Sedan) sedan2).sedanMetod(); //Instance is parent type. In order to run its method it has to be casted.
+        ((Sedan) sedan2).sedanMetod(); //Instance Class type is parent(Arac). In order to run Instance own method it has to be casted to subClass(Sedan).
     }
 }
