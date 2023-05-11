@@ -47,6 +47,8 @@ public class AracTest {
         aracParket(sedan1);
         aracParket(kamyon1);
 
+        //Parent class has its subclasses references
+        //Parent class türünde sub class oluşturabilirz.
         Arac kamyon2 = new Kamyon(2,"Ford","Siyah");
         Arac sedan2 = new Sedan(4,"Toyota","Mavi");
 
