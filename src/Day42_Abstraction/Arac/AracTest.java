@@ -33,7 +33,7 @@ public class AracTest {
         Sedan sedan1 = new Sedan(4, "Mercedes", "Beyaz");
         sedan1.printInfo();
 
-        sedan1.setEmniyetKemeri(false);
+        sedan1.setEmniyetKemeri(true);
         sedan1.start();
         sedan1.move();
         sedan1.turnRight(45);
@@ -43,6 +43,9 @@ public class AracTest {
         System.out.println();
         Kamyon kamyon1 = new Kamyon(2, "Dodge", "Kırmızı");
         kamyon1.printInfo();
+        kamyon1.setEmniyetKemeri(false);
+        kamyon1.start();
+        kamyon1.move();
 
         aracParket(sedan1);
         aracParket(kamyon1);
@@ -60,7 +63,7 @@ public class AracTest {
         System.out.println(sedan1.getClass());
         System.out.println(sedan2.getClass());
 
-        sedan1.sedanMetod();
+        sedan1.sedanMetod();//Instance Class type is Sedan.Casting is not needed.
         ((Sedan) sedan2).sedanMetod(); //Instance Class type is parent(Arac). In order to run Instance own method it has to be casted to subClass(Sedan).
     }
 }
