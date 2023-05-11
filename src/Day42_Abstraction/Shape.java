@@ -18,7 +18,7 @@ public abstract class Shape {
     //This is none-abstract class which is non-mandatory to be implemented by subclasses
     //It may be overridden or not.
     protected void showInfo(){
-       System.out.println("I am abstract and parent class.");
+       System.out.println("I am abstract and parent class. Any instance can not be created.");
    }
    public static void merhaba(){
        System.out.println("Merhaba. Ben bir statik metodum.");
