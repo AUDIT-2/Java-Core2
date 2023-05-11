@@ -6,8 +6,8 @@ public class StaticMethodChild extends StaticMethodParent{
     //child class ta default, protected ya da public olabilir
     protected static void methodParent(){ //Parent class static method methodParent() is hided.
       System.out.println("Child static method.");
+      StaticMethodParent.methodParent();
     }
-
     public static void main(String[] args) {
         StaticMethodParent.methodParent();
         StaticMethodChild.methodParent();
