@@ -14,7 +14,7 @@ public class Kamyon extends Arac{//Kamyon is-a Arac
     }
 
     @Override
-    protected void start(boolean emniyetKemeri) {
+    protected void start() {
 
     }
 

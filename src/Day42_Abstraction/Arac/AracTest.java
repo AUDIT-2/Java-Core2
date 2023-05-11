@@ -34,7 +34,7 @@ public class AracTest {
         sedan1.printInfo();
 
         sedan1.setEmniyetKemeri(false);
-        sedan1.start(true);
+        sedan1.start();
         sedan1.move();
         sedan1.turnRight(45);
         sedan1.stop();

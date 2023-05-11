@@ -14,8 +14,8 @@ public class Sedan extends Arac { //Sedan is-a Arac
     }
 
     @Override
-    protected void start(boolean emniyetKemeri) {
-        if(emniyetKemeri){
+    protected void start() {
+        if(isEmniyetKemeri()){
             System.out.println("Started successfully.");
             hareketEdebilir = true;
         }

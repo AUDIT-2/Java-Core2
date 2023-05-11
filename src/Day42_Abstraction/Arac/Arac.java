@@ -15,7 +15,7 @@ public abstract class Arac {
    private boolean emniyetKemeri = false;
 
    //Subclasses must implement these methods.
-   protected abstract void start(boolean emniyetKemeri);
+   protected abstract void start();
    protected abstract void stop();
    protected abstract void move();
    protected abstract void turnRight(int angle);
