@@ -8,6 +8,7 @@
 package Day42_Abstraction.Arac;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class AracTest {
     //Parent class sub class ların referanslarını tutabiliği için Parent Class türünde bir ArrayList oluşturduk.
@@ -62,8 +63,8 @@ public class AracTest {
 
         aracListe();
 
-        System.out.println(sedan1.getClass());
-        System.out.println(sedan2.getClass());
+        System.out.println(sedan1.getClass().getName());
+        System.out.println(sedan2.getClass().getName());
 
         sedan1.sedanMetod();//Instance Class type is Sedan.Casting is not needed.
         ((Sedan) sedan2).sedanMetod(); //Instance Class type is parent(Arac). In order to run Instance own method it has to be casted to subClass(Sedan).
