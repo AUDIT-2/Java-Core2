@@ -10,6 +10,8 @@ package Day42_Abstraction.Arac;
 import java.util.ArrayList;
 
 public class AracTest {
+    //Parent class sub class ların referanslarını tutabiliği için Parent Class türünde bir ArrayList oluşturduk.
+    //Dolayısıyla Parent class tan miras alan bütün sub classlar bu ArrayList e eklenebilir.
     static ArrayList<Arac> garaj = new ArrayList<>();
 
        /* ArrayList<Sedan>  sedanGaraj = new ArrayList<>();
