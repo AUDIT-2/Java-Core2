@@ -24,11 +24,11 @@ public class Hybrid extends Vehicle implements BenzinMotorlu,ElektrikMotorlu{
 
     @Override
     public void benzinMotorCalistir() {
-
+        System.out.println("Benzin motoru çalıştırıldı.");
     }
 
     @Override
     public void elektrikMotorCalistir() {
-
+        System.out.println("Elektril motoru çalıştırıldı.");
     }
 }

@@ -9,7 +9,10 @@ package Day43_Interface.Interface;
 
 public class SekilTest {
     public static void main(String[] args) {
+        //Callig a static method of an Interface
         Sekil.merhaba();
+
+        //Accessing static fields of an Interface. All fields(properties,attributes, variables) are public,static and final in an Interface
         System.out.println(Sekil.MAX_LENGTH);
         System.out.println(Sekil.MAX_WIDTH);
 

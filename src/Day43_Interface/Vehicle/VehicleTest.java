@@ -9,12 +9,20 @@ package Day43_Interface.Vehicle;
 
 public class VehicleTest {
     public static void main(String[] args) {
+        //Subclass of Hybrid class.
         Car araba = new Car("Toyota","Avensis");
-        CarA arabaBenzin = new CarA("Ford","Focus");
 
+        System.out.println(araba.getMarka());
+        System.out.println(araba.getModel());
         araba.benzinMotorCalistir();
         araba.elektrikMotorCalistir();
 
-        arabaBenzin.benzinMotorCalistir();
+
+        //Subclass of Benzinli
+        CarA arabaBenzinli = new CarA("Ford","Focus");
+
+        System.out.println(arabaBenzinli.getMarka());
+        System.out.println(arabaBenzinli.getModel());
+        arabaBenzinli.benzinMotorCalistir();
     }
 }

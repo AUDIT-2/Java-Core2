@@ -26,4 +26,12 @@ public class Kare implements Sekil{
         System.out.println("Karenin çevresini hesaplıyorum.");
         return 2*length + 2*width;
     }
+
+    @Override
+    public void drawDef() {
+        //Default method of interface. Child class may override or use as parent class method like below.
+        Sekil.super.drawDef();
+
+        System.out.println("This method is overridden.");
+    }
 }

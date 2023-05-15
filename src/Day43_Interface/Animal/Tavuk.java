@@ -20,6 +20,6 @@ public class Tavuk extends Animal implements Kosabilir{
 
     @Override
     public void run() {
-        System.out.println("I am chicken and I run with my two feets.");
+        System.out.println("I am chicken and I run with my two feet.");
     }
 }
