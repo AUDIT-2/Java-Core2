@@ -23,8 +23,9 @@ public interface Sekil {
     */
 
     //Interface methods are abstract. All methods in Interface are by default "public".
+    //Other modifiers can not be used for methods
     // public void draw();
-    //Abstract method
+    //Abstract method by default public.
     void draw();
 
     //Abstract methods can not be final or static.
