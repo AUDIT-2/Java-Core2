@@ -18,21 +18,25 @@ public class Bird extends Animal implements Ucabilir,Kosabilir{
 
     @Override
     public void eat() {
+        //Implementation of interface method
         System.out.println("I am a bird and I can eat tiny animals and wheats.");
     }
 
     @Override
     public void sleep() {
+        //Implementation of interface method
         System.out.println("I sleep on top of the trees.");
     }
 
     @Override
     public void fly(){
+        //Implementation of interface method
         System.out.println("I am bird and I fly with my wings.");
     }
 
     @Override
     public void run() {
+        //Implementation of interface method
         System.out.println("I am bird and I run with my two feets.");
     }
 }

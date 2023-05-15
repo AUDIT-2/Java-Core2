@@ -11,11 +11,13 @@ public class Kare implements Sekil{
 
     @Override
     public void draw() {
+        //Implementation of interface method
         System.out.println("Ben bir kare şekli çiziyorum.");
     }
 
     @Override
     public int getArea(int length, int width) {
+        //Implementation of interface method
         Sekil.merhaba();
         System.out.println("Karenin alanını hesaplıyorum.");
         return length * width;
@@ -23,6 +25,7 @@ public class Kare implements Sekil{
 
     @Override
     public int getPerimeter(int length, int width) {
+        //Implementation of interface method
         System.out.println("Karenin çevresini hesaplıyorum.");
         return 2*length + 2*width;
     }

@@ -15,16 +15,19 @@ public class Elektrikli extends Vehicle implements ElektrikMotorlu{
 
     @Override
     void start() {
+        //Implementation of interface method
         elektrikMotorCalistir();
     }
 
     @Override
     void stop() {
+        //Implementation of interface method
         System.out.println("Motoru durdurdum.");
     }
 
     @Override
     public void elektrikMotorCalistir() {
+        //Implementation of interface method
         System.out.println("Elektrik motoru çalıştırıldı.");
     }
 }

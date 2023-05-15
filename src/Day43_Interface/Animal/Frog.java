@@ -19,21 +19,25 @@ public class Frog extends Animal implements Kosabilir,Yuzebilir{
 
     @Override
     public void eat() {
+        //Implementation of interface method
         System.out.println("I am frog. And I eat flies.");
     }
 
     @Override
     public void sleep() {
+        //Implementation of interface method
         System.out.println("I sleep under the rocks.");
     }
 
     @Override
     public void run() {
+        //Implementation of interface method
         System.out.println("I run with my four legs.");
     }
 
     @Override
     public void swim() {
+        //Implementation of interface method
         System.out.println("Whenever I need, I can swim in water.");
     }
 

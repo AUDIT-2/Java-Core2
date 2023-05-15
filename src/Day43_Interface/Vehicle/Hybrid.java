@@ -14,21 +14,25 @@ public class Hybrid extends Vehicle implements BenzinMotorlu,ElektrikMotorlu{
 
     @Override
     void start() {
+        //Implementation of interface method
 
     }
 
     @Override
     void stop() {
+        //Implementation of interface method
 
     }
 
     @Override
     public void benzinMotorCalistir() {
+        //Implementation of interface method
         System.out.println("Benzin motoru çalıştırıldı.");
     }
 
     @Override
     public void elektrikMotorCalistir() {
+        //Implementation of interface method
         System.out.println("Elektril motoru çalıştırıldı.");
     }
 }

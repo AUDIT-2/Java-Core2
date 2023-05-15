@@ -17,16 +17,19 @@ public class Benzinli extends Vehicle implements BenzinMotorlu{
 
     @Override
     void start() {
+        //Implementation of interface method
         benzinMotorCalistir();
     }
 
     @Override
     void stop() {
+        //Implementation of interface method
         System.out.println("Motoru durdurdum.");
     }
 
     @Override
     public void benzinMotorCalistir() {
+        //Implementation of interface method
         System.out.println("Benzin motoru çalıştırıldı.");
     }
 }
