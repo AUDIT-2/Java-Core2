@@ -8,6 +8,7 @@
 package Day43_Interface.Animal;
 
 public class Fish extends Animal implements Ucabilir,Yuzebilir{
+    //A class can implement multiple interface--- multiple inheritance can be done with interface in Java.
     @Override
     public void eat() {
         System.out.println("I am fish and I eat plankton.");

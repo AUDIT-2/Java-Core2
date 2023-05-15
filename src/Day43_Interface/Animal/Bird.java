@@ -8,7 +8,7 @@
 package Day43_Interface.Animal;
 
 public class Bird extends Animal implements Ucabilir,Kosabilir{
-
+    //A class can implement multiple interface--- multiple inheritance can be done with interface in Java.
     public Bird() {
     }
 

@@ -8,7 +8,8 @@
 package Day43_Interface.Animal;
 
 public interface KosabilenYuzebilen extends Yuzebilir {
-    @Override
+    //An interface can extend another interface.
+    @Override //Yuzebilir interface ine ait metod.
     void swim();
 
     void run();
