@@ -12,6 +12,9 @@ import java.util.ArrayList;
 public class Zoo {
     private String name;
 
+    //Non-polymorphic way to create instance of classes
+    //When it is needed to add new type of animal new ArrayList has to be created to hold instance of new class
+    //Also new add method and new list method has to be created for to new type of Animal
     private final ArrayList<Cat> cats;
     private final ArrayList<Dog> dogs;
     private final ArrayList<Duck> ducks;
