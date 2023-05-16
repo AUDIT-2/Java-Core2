@@ -9,17 +9,17 @@ package Day44_Polymorphism_1.AnimalPly;
 
 public class AnimalPlyTest {
     public static void main(String[] args) {
-        Animal animal; //Polymorphic variable--Parent class Animal type
+        Animal animal; //Polymorphic variable--->Parent class Reference Type Animal
         animal = new Animal("Ordinary Animal");
-        animal.sound();
+        animal.sound(); //Method of Animal---parent class
 
-        animal = new Cat("Tekir");
-        animal.sound();
+        animal = new Cat("Tekir"); //Instance type Cat
+        animal.sound(); //Overridden method of Animal class in side the Cat class
 
-        animal = new Dog("Karabaş");
-        animal.sound();
+        animal = new Dog("Karabaş"); //Instance type Dog
+        animal.sound(); //Overridden method of Animal class in side the Dog class
 
-        animal = new Duck("Donald Duck");
-        animal.sound();
+        animal = new Duck("Donald Duck"); //Instance type Duck
+        animal.sound(); //Overridden method of Animal class in side the Duck class
     }
 }
