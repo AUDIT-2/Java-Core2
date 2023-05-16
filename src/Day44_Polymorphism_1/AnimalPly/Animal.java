@@ -15,6 +15,7 @@ public class Animal {
     }
 
     public void sound(){
-        System.out.println("My name is " + name + " I am an animal.");
+        System.out.println("I am an Animal.");
+        System.out.println("My name is " + name);
     }
 }
