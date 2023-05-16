@@ -17,4 +17,8 @@ public class Cat extends Animal{
         System.out.println("I am a Cat.");
         System.out.println("My name is " + name + " and I make sound ...Miyav...miyav");
     }
+    public void tirmala(){
+        System.out.println("Ben bir kediyim.");
+        System.out.println("Benim adım " + name + " ve Ben tırmalarım.");
+    }
 }

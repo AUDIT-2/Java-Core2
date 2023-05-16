@@ -17,4 +17,9 @@ public class Dog extends Animal{
         System.out.println("I am a Dog.");
         System.out.println("My name is " + name + " and I make sound ...Hav...hav");
     }
+    public void bite(){
+        System.out.println("Benim adım " + name);
+        System.out.println("Ben bir köpeğim");
+        System.out.println("Beni kızdırırsan ısırırım!!!");
+    }
 }
