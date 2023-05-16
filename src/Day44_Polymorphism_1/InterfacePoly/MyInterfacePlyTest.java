@@ -9,17 +9,19 @@ package Day44_Polymorphism_1.InterfacePoly;
 
 public class MyInterfacePlyTest {
     public static void main(String[] args) {
+        //Non PolyMorphic declaration
         ClassA classA = new ClassA();
         classA.print("Merhaba");
 
         ClassB classB = new ClassB();
         classB.print("Benden de bir merhaba");
 
-        MyInterface mrb; //Polymorphic variable
-        mrb = new ClassA();
-        mrb.print("PolyMorphic Merhaba-ClassA");
+        //PolyMorphic declaration
+        MyInterface mrb; //Polymorphic variable-Interface can hold reference of its subclasses
+        mrb = new ClassA(); //variable mrb holds the reference of its subclass ClassB
+        mrb.print("PolyMorphic Merhaba");
 
-        mrb = new ClassB();
-        mrb.print("PolyMorphic Merhaba-ClassB");
+        mrb = new ClassB(); //variable mrb holds the reference of its subclass ClassB
+        mrb.print("PolyMorphic Merhaba");
     }
 }

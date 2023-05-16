@@ -10,6 +10,6 @@ package Day44_Polymorphism_1.InterfacePoly;
 public class ClassA implements MyInterface{
     @Override
     public void print(String str) {
-        System.out.println(str);
+        System.out.println("ClassA --> " + str);
     }
 }

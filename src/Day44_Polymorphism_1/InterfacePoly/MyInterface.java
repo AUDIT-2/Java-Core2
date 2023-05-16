@@ -8,6 +8,7 @@
 package Day44_Polymorphism_1.InterfacePoly;
 
 public interface MyInterface {
+   //Interface can hold reference of its subclasses
    void print(String str);
 
 }
