@@ -18,6 +18,7 @@ public class CompileTimePoly {
 
     //Static polymorphism veya CompileTime polymorphism
     //Method overloading
+    //Depends on the argument passing to method, compiler decide which methods to use.
     public static int topla(int sayiA, int sayiB){
         return sayiA + sayiB;
     }
