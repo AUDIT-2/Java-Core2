@@ -36,20 +36,20 @@ public class VehicleSystemTest {
         vehicles.add(helikopter);
 
 
-        car.move();
-        plane.move();
-        ((Plane)plane).fly(); //DownCasting Parent ---> Child
+        car.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
+        plane.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
+        ((Plane)plane).fly(); //DownCasting Parent ---> Child... Vehicle ---> Plane. In order to invoke Child class method.
 
         ((Plane)plane).setAttitude(9500);
         ((Plane)plane).fly();
 
         ((Plane)plane).banaOzel();
 
-        boat.move();
-        ((Boat)boat).floats(); //DownCasting Parent ---> Child
+        boat.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
+        ((Boat)boat).floats(); //DownCasting Parent ---> Child... Vehicle ---> Boat. In order to invoke Child class method.
 
-        train.move();
-        helikopter.move();
+        train.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
+        helikopter.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
         ((Helikopter)helikopter).fly();
 
         System.out.println("-----------  instanceof --------------------------");

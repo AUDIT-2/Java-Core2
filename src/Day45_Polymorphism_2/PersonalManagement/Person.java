@@ -32,6 +32,7 @@ public abstract class Person {
         this.TCNo = TCNo;
     }
 
+    //Abstract methods must be implemented by sub Classes
     public abstract void work();
     public abstract String showInfo();
 }

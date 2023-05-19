@@ -32,6 +32,7 @@ public abstract class Vehicle {
         this.speed = speed;
     }
 
+    //Abstract method must be implemented by sub Classes
    public abstract void move();
 
 }
