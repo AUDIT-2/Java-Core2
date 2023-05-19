@@ -67,20 +67,27 @@ public class VehicleSystemTest {
             System.out.println();
         }
 
+        //How to understand which class method I am calling
+        //getClass() method helps us to access the object information
         System.out.println("------------ getClass() -------------------------");
         for (Vehicle arac :vehicles){
             System.out.println(arac.getClass());
         }
+
+        //returns package.className of the object
         System.out.println("------------ getClass().getName() -------------------------");
         for (Vehicle arac :vehicles){
             System.out.println(arac.getClass().getName());
         }
+
+        //returns just the class name of the object
         System.out.println("------------ getClass().getSimpleName() -------------------------");
         for (Vehicle arac :vehicles){
             System.out.println(arac.getClass().getName());
             System.out.println(arac.getClass().getSimpleName().toUpperCase());
         }
 
+        //returns array of the interface name of the object
         System.out.println("------------ getClass().getInterfaces() -------------------------");
         for (Vehicle arac :vehicles){
             System.out.println(arac.getClass().getSimpleName().toUpperCase());
