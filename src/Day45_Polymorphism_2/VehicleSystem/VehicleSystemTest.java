@@ -44,6 +44,7 @@ public class VehicleSystemTest {
 
         ((Plane)plane).banaOzel(); //DownCasting Parent ---> Child... Vehicle ---> Plane. In order to invoke Child class method.
 
+        //SeaPlane Class implements both Flyable and CanFloat interface
         ((SeaPlane) seaPlane).fly(); //DownCasting Parent ---> Child... Vehicle ---> SeaPlane. In order to invoke Child class method.
         ((SeaPlane) seaPlane).floats(); //DownCasting Parent ---> Child... Vehicle ---> SeaPlane. In order to invoke Child class method.
 
