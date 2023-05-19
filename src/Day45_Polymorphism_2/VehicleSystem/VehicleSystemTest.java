@@ -14,6 +14,7 @@ public class VehicleSystemTest {
     public static void main(String[] args) {
         Vehicle car = new Car(4,120);
         Vehicle plane = new Plane(150,850,12000);
+        Vehicle seaPlane = new SeaPlane(20,350,2500);
         Vehicle train = new Train(450,85);
         Vehicle boat = new Boat(8,65);
         Vehicle helikopter = new Helikopter(14,50);
@@ -32,6 +33,7 @@ public class VehicleSystemTest {
         vehicles.add(train);
         vehicles.add(boat);
         vehicles.add(helikopter);
+        vehicles.add(seaPlane);
 
 
         car.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
@@ -50,15 +52,16 @@ public class VehicleSystemTest {
         helikopter.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
         ((Helikopter)helikopter).fly();
 
-        System.out.println("-----------  instanceof --------------------------");
+        System.out.println("-----------  instanceof  --------------------------");
         for (Vehicle arac :vehicles){
-            arac.move();
+            arac.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
             if(arac instanceof Flyable){
                 ((Flyable) arac).fly();
             }
             if (arac instanceof CanFloat){
                 ((CanFloat) arac).floats();
             }
+            System.out.println();
         }
 
         System.out.println("------------ getClass() -------------------------");
@@ -72,16 +75,16 @@ public class VehicleSystemTest {
         System.out.println("------------ getClass().getSimpleName() -------------------------");
         for (Vehicle arac :vehicles){
             System.out.println(arac.getClass().getName());
-            System.out.println(arac.getClass().getSimpleName());
+            System.out.println(arac.getClass().getSimpleName().toUpperCase());
         }
 
         System.out.println("------------ getClass().getInterfaces() -------------------------");
         for (Vehicle arac :vehicles){
-            System.out.println(arac.getClass().getSimpleName());
+            System.out.println(arac.getClass().getSimpleName().toUpperCase());
             System.out.println(Arrays.toString(arac.getClass().getInterfaces()));
         }
 
-        ((Plane) plane).fly();
-        ((Plane) plane).floats();
+        ((SeaPlane) seaPlane).fly();
+        ((SeaPlane) seaPlane).floats();
     }
 }
