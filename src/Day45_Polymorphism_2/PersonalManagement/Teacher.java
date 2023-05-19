@@ -14,7 +14,7 @@ public class Teacher extends Person{
 
     @Override
     public void work() {
-        System.out.println("I am a techer. And I teach lesson.");
+        System.out.println("I am a teacher. And I teach lesson.");
     }
 
     public void doExam(){
