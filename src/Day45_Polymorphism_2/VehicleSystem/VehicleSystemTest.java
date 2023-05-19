@@ -44,6 +44,9 @@ public class VehicleSystemTest {
 
         ((Plane)plane).banaOzel(); //DownCasting Parent ---> Child... Vehicle ---> Plane. In order to invoke Child class method.
 
+        ((SeaPlane) seaPlane).fly(); //DownCasting Parent ---> Child... Vehicle ---> SeaPlane. In order to invoke Child class method.
+        ((SeaPlane) seaPlane).floats(); //DownCasting Parent ---> Child... Vehicle ---> SeaPlane. In order to invoke Child class method.
+
         boat.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
         ((Boat)boat).floats(); //DownCasting Parent ---> Child... Vehicle ---> Boat. In order to invoke Child class method.
 
@@ -82,8 +85,5 @@ public class VehicleSystemTest {
             System.out.println(arac.getClass().getSimpleName().toUpperCase());
             System.out.println(Arrays.toString(arac.getClass().getInterfaces()));
         }
-
-        ((SeaPlane) seaPlane).fly(); //DownCasting Parent ---> Child... Vehicle ---> SeaPlane. In order to invoke Child class method.
-        ((SeaPlane) seaPlane).floats(); //DownCasting Parent ---> Child... Vehicle ---> SeaPlane. In order to invoke Child class method.
     }
 }
