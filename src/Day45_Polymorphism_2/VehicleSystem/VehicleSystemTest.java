@@ -7,8 +7,6 @@
 
 package Day45_Polymorphism_2.VehicleSystem;
 
-import Day18_REVIEW_Methods.Palindrome;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
