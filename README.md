@@ -52,3 +52,5 @@
 * [Day 41- Final Keyword in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day41_FinalKeywordMethodHiding)
 * [Day 42- Abstract Class in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day42_Abstraction)
 * [Day 43- Interface Class in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day43_Interface)
+* [Day 44- Polymorphism-1 Class in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day44_Polymorphism_1)
+* [Day 45- Polymorphism-2 Class in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day44_Polymorphism_2)
