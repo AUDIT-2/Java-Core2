@@ -7,8 +7,8 @@
 
 package Day45_Polymorphism_2.VehicleSystem;
 
-public class Helikopter extends Vehicle implements Flyable{
-    public Helikopter(int capacity, int speed) {
+public class Helicopter extends Vehicle implements Flyable{
+    public Helicopter(int capacity, int speed) {
         super(capacity, speed);
     }
 

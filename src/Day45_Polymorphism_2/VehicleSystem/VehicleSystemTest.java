@@ -17,7 +17,7 @@ public class VehicleSystemTest {
         Vehicle seaPlane = new SeaPlane(20,350,2500);
         Vehicle train = new Train(450,85);
         Vehicle boat = new Boat(8,65);
-        Vehicle helikopter = new Helikopter(14,50);
+        Vehicle helicopter = new Helicopter(14,50);
 
       /*  ArrayList<Plane> ucaklar = new ArrayList<>();
         ArrayList<Car> arabalar = new ArrayList<>();
@@ -32,25 +32,24 @@ public class VehicleSystemTest {
         vehicles.add(plane);
         vehicles.add(train);
         vehicles.add(boat);
-        vehicles.add(helikopter);
+        vehicles.add(helicopter);
         vehicles.add(seaPlane);
-
 
         car.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
         plane.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
         ((Plane)plane).fly(); //DownCasting Parent ---> Child... Vehicle ---> Plane. In order to invoke Child class method.
 
         ((Plane)plane).setAttitude(9500);
-        ((Plane)plane).fly();
+        ((Plane)plane).fly(); //DownCasting Parent ---> Child... Vehicle ---> Plane. In order to invoke Child class method.
 
-        ((Plane)plane).banaOzel();
+        ((Plane)plane).banaOzel(); //DownCasting Parent ---> Child... Vehicle ---> Plane. In order to invoke Child class method.
 
         boat.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
         ((Boat)boat).floats(); //DownCasting Parent ---> Child... Vehicle ---> Boat. In order to invoke Child class method.
 
         train.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
-        helikopter.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
-        ((Helikopter)helikopter).fly();
+        helicopter.move(); //Polymorphism---every instance invoke its own version(override) of .move() method
+        ((Helicopter)helicopter).fly(); //DownCasting Parent ---> Child... Vehicle ---> Helicopter. In order to invoke Child class method.
 
         System.out.println("-----------  instanceof  --------------------------");
         for (Vehicle arac :vehicles){
@@ -84,7 +83,7 @@ public class VehicleSystemTest {
             System.out.println(Arrays.toString(arac.getClass().getInterfaces()));
         }
 
-        ((SeaPlane) seaPlane).fly();
-        ((SeaPlane) seaPlane).floats();
+        ((SeaPlane) seaPlane).fly(); //DownCasting Parent ---> Child... Vehicle ---> SeaPlane. In order to invoke Child class method.
+        ((SeaPlane) seaPlane).floats(); //DownCasting Parent ---> Child... Vehicle ---> SeaPlane. In order to invoke Child class method.
     }
 }
