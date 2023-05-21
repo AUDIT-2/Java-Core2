@@ -6,8 +6,4 @@
 # Software Development Engineer in Test (SDET)
 ## Core Java programming for SDET
 
-### Course cover
-
-* Day 1- Introduction Computer Science | Algorithm
-* Day 2- Introduction to Java |JVM, JRE, JDK
-* [Day 02- MyFirstProgram | Print & Println | Comments](https://github.com/BootFlowAcademy/Java-Core2/tree/master/src/Day02_MyFirstProgram)
+* Day 1- Introduction to Computer Science | Algorithm
