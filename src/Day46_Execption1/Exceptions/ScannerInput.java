@@ -18,7 +18,8 @@ public class ScannerInput {
         while (sayi > 0) {
             System.out.println("Programdan çıkış için 0'dan küçük bir sayı girin.");
             System.out.print("Klavyeden bir tam sayı giriniz : ");
-
+            //Exception handling için monitor edeceğimiz kodları try{} bloğunun içerisine yazıyoruz.
+            //Bir hatalı durum oluşması durumunda hatayı ilgili catch(){} bloğunda yakalıyoruz.
             try {
                 sayi = Integer.parseInt(scanner.nextLine()); //int yerine başka tipte bir veri girersek NumberFormatException hatası oluşur.
                 //sayi = scanner.nextInt(); //int yerine başka tipte bir veri girersek InputMismatchException hatası oluşur.
@@ -26,7 +27,6 @@ public class ScannerInput {
                     System.out.println("Programdan çıkılıyor...");
                     break;
                 }
-
                 System.out.println("Girilen sayı = " + sayi);
                 toplam += sayi;
                 System.out.println("toplam = " + toplam);
