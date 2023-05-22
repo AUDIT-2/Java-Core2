@@ -31,12 +31,19 @@ public class ScannerInput {
                 toplam += sayi;
                 System.out.println("toplam = " + toplam);
             } catch (InputMismatchException e) {
+                //veritipinin max değerinden büyük bir değer girilfdiğinde
+                //veritipinden farkli bir veritipi girildiğinde
                 //scanner.nextInt() ile int yerine başka tipte bir veri girersek bu hata oluşur.
                 System.err.println("Veritipi uyuşmazlığı hatası oluştu!!!");
                 System.err.println("Exception class name : " + e.getClass().getSimpleName()); //Hata classı
                 System.err.println("Exception Message    : " + e.getMessage()); //Orijinal hata mesajı
+                 /*
+                //Klavyeden enter a basıldığında girilen nextInt() tarafından integer ile alınır newline karakteri bufferda kalır.
+                 O yüzden loop a girmemesi için nextLine ile buffer boşaltılması gerekir.
+                 */
                 scanner.nextLine(); //Klavye bufferdaki \n karakterini silmek için
             } catch (NumberFormatException e) {
+                //veritipine uymayan bir tip dönüştürmesi yapılmaya çalışıldığında..>  int sayi = Integer.parseInt ("abc") ;
                 System.err.println("Sayı format uyumsuzluğu!!!");
                 System.err.println("Exception class name : " + e.getClass().getSimpleName()); //Hata classı
                 System.err.println("Exception Message    : " + e.getMessage()); //Orijinal hata mesajı
