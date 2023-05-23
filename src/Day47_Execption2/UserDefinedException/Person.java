@@ -13,6 +13,7 @@ public class Person {
     private int age;
     private String address;
 
+    //Constructor da exception handling yapmadığımız için Checked exceptionları throw ediyoruz. Constructor ı çağıran metodlar handling yapmalılar.
     public Person(String name, String TCNO, int age, String address) throws NameException,TCNOException {
         /*this.name = name;
         this.TCNO = TCNO;
@@ -27,6 +28,7 @@ public class Person {
         return name;
     }
 
+    //Checked exception olduğundan bu metodu çağıranlar compile-time da handling mekanizması kurmak zorundadır.
     public String setName(String name) throws NameException {
         if(name.isBlank() || name.length() < 3){
             throw new NameException("Hata: İsim alanı boş veya 3 harften küçük olamaz!!!");
@@ -38,6 +40,7 @@ public class Person {
         return TCNO;
     }
 
+    //Checked exception olduğundan bu metodu çağıranlar compile-time da handling mekanizması kurmak zorundadır.
     public String setTCNO(String TCNO) throws TCNOException {
         if (TCNO.isBlank() || TCNO.length() != 11){
             throw new TCNOException("Hata: TCNO boş olamaz. 11 haneli olmalıdır!!!");
@@ -49,9 +52,10 @@ public class Person {
         return age;
     }
 
+    //UnChecked exception olduğundan bu metodu çağıranlar compile-time da handling mekanizması kurmak zorunda değiller.
     public int setAge(int age) throws AgeException{
         if (age < 0 || age > 120 ){
-            AgeException ageHata = new AgeException("Hata: Yaş bilgisi 0 - 120 aralığında olmalıdır!!!.");
+            AgeException ageHata = new AgeException("Hata: Yaş bilgisi 0-120 aralığında olmalıdır!!!.");
             throw ageHata ;
         }
        return this.age = age;
