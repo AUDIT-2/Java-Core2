@@ -8,7 +8,7 @@
 package Day47_Execption2;
 
 //User defined exception.
-public class YasHatasi extends RuntimeException {//Unchecked
+public class YasHatasi extends RuntimeException {//RunTimeException-Unchecked
     public YasHatasi(String message) {
         super(message);
     }
