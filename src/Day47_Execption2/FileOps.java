@@ -19,19 +19,26 @@ public class FileOps {
 
         try {
             dosyaOku = new Scanner(file);
+            //Aşağıdaki .nextLine() metodu ile her seferinde dosyadan bir satır okunur.
+
            /* System.out.println(dosyaOku.nextLine());
             System.out.println(dosyaOku.nextLine());
             System.out.println(dosyaOku.nextLine());
             System.out.println(dosyaOku.nextLine());
 
-            System.out.println(dosyaOku.nextLine()); //Olmayan bir satırı okuduğumuz için hata oluşur*/
+            //Dosyada olmayan bir satır okumak istersek NoSuchElementException hatası oluşur
+            System.out.println(dosyaOku.nextLine()); */
 
+            //Bu loop ile dosya satır satır dosya sonuna kadar okunur.
             while (dosyaOku.hasNextLine()){
                 System.out.println(dosyaOku.nextLine());
             }
-
-        } catch (FileNotFoundException | NoSuchElementException e) {
-            System.out.println("Hata: " + e.getMessage());
+        } catch (FileNotFoundException e) {
+            System.err.println("Hata: Okumaya çalıştığınız dosya sistemde bulunamıyor!!!");
+            System.err.println("Hata: " + e.getMessage());
+        }catch (NoSuchElementException e){
+            System.err.println("Hata: Dosyada olmayan bir satır okunmaya çalışıyor!!!");
+            System.err.println("Hata: " + e.getMessage());
         }
         finally {
             System.out.println("Finally block has executed.");
