@@ -20,8 +20,8 @@ public class OutOfMemory1 {
                 System.out.println("Bir hata oluştu.");
                 System.out.println(e.getMessage());
                 e.printStackTrace();
-                break;
-                //System.exit(100);
+                //break;
+               System.exit(100);
             }
             catch (Error e){
                 System.out.println("Bir hata oluştu.");
