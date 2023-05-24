@@ -22,7 +22,7 @@ public class PerformanceMemoryUsage {
         long oncekiHafizaArrayList = runtime.totalMemory() - runtime.freeMemory();
         int numberOfElement = 20_000_000; //Listeye eklenecek eleman sayısı
 
-        System.out.println("Creating ArrayList... and adding " + numberOfElement + " element to ArrayList........................");
+        System.out.println("Creating ArrayList... and adding " + numberOfElement + " element to ArrayList........");
         List<Integer> arrayList = new ArrayList<>();
         for (int i = 0; i < numberOfElement; i++) {
             arrayList.add(i);
@@ -36,7 +36,7 @@ public class PerformanceMemoryUsage {
         System.out.println("ArrayList hafıza kullanımı   : " + ((toplamKullanilanHafizaArrayList)/1024.0)/1024.0/1024.0 + " giga bytes.");
 
         System.out.println();
-        System.out.println("Creating LinkedList... and adding " + numberOfElement + " element to LinkedList........................");
+        System.out.println("Creating LinkedList... and adding " + numberOfElement + " element to LinkedList......");
         long oncekiHafizaLinkedList = runtime.totalMemory() - runtime.freeMemory();
 
         List<Integer> linkedList = new LinkedList<>();
@@ -49,7 +49,7 @@ public class PerformanceMemoryUsage {
         System.out.println("LinkedList hafıza kullanımı  : " + (toplamKullanilanHafizaLinkedList) + " bytes.");
         System.out.println("LinkedList hafıza kullanımı  : " + (toplamKullanilanHafizaLinkedList/1024.0) + " kilo bytes.");
         System.out.println("LinkedList hafıza kullanımı  : " + ((toplamKullanilanHafizaLinkedList)/1024.0) /1024.0 + " mega bytes.");
-        System.out.println("ArrayList hafıza kullanımı   : " + ((toplamKullanilanHafizaLinkedList)/1024.0)/1024.0/1024.0 + " giga bytes.");
+        System.out.println("LinkedList hafıza kullanımı  : " + ((toplamKullanilanHafizaLinkedList)/1024.0)/1024.0/1024.0 + " giga bytes.");
 
         System.out.println();
         System.out.println(numberOfElement + " elemanlı bir liste için");
