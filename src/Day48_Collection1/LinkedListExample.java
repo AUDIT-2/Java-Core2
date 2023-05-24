@@ -49,13 +49,17 @@ public class LinkedListExample {
         }else System.out.println("citiesLinkedList LinkedList olmadığından .getLast() metodu çalıştırılmadı.");
 
         System.out.println();
+        System.out.println("LinkedList--> push() metodundan önce");
         System.out.println(citiesLinkedList);
+        System.out.println();
         if(citiesLinkedList instanceof LinkedList<String>){
             System.out.println("List interface inde olmayan LinkedList'e ait push() metodu LinkedList in başına ekleme yapar.");
             //Child class a ait bir metod olduğundan cast işlemi gerekli
             System.out.println("LinkedListin başına eleman eklendi...");
             ((LinkedList<String>) citiesLinkedList).push("Mersin");
         }
+        System.out.println();
+        System.out.println("LinkedList--> push() metodundan sonra");
         System.out.println(citiesLinkedList);
     }
 }
