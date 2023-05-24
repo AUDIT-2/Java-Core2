@@ -36,14 +36,16 @@ public class LinkedListExample {
 
         System.out.println();
         if(citiesLinkedList instanceof LinkedList<String>){
-            System.out.println("getFirst()");
-            System.out.println(((LinkedList<String>) citiesLinkedList).getFirst());
+            System.out.println("List interface inde olmayan LinkedList'e ait getFirst() metodu");
+            //Child class a ait bir metod olduğundan cast işlemi gerekli
+            System.out.println("LinkedListeki ilk eleman : " + ((LinkedList<String>) citiesLinkedList).getFirst());
         }else System.out.println("citiesLinkedList LinkedList olmadığından .getFirst() metodu çalıştırılmadı.");
 
         System.out.println();
         if(citiesLinkedList instanceof LinkedList<String>){
-            System.out.println("getLast()");
-            System.out.println(((LinkedList<String>) citiesLinkedList).getLast());
+            System.out.println("List interface inde olmayan LinkedList'e ait getLast() metodu");
+            //Child class a ait bir metod olduğundan cast işlemi gerekli
+            System.out.println("LinkedListeki son eleman : " + ((LinkedList<String>) citiesLinkedList).getLast());
         }else System.out.println("citiesLinkedList LinkedList olmadığından .getLast() metodu çalıştırılmadı.");
     }
 }
