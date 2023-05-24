@@ -20,7 +20,7 @@ public class PerformanceMemoryUsage {
         */
 
         long oncekiHafizaArrayList = runtime.totalMemory() - runtime.freeMemory();
-        int numberOfElement = 20_000_000;
+        int numberOfElement = 20_000_000; //Listeye eklenecek eleman sayısı
 
         System.out.println("Creating ArrayList... and adding " + numberOfElement + " element to ArrayList........................");
         List<Integer> arrayList = new ArrayList<>();
