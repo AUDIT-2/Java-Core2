@@ -50,7 +50,7 @@ public class ArrayListAdd {
         System.out.println("Cities List : " + cities);
         System.out.println("Cities1 List : " + cities1);
 
-        //Adding an ArrayList to another ArrayList
+        //Adding an ArrayList to another ArrayList with for each loop
         for (String eleman :cities1){
             cities.add(eleman);
         }
