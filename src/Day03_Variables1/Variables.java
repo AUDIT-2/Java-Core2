@@ -15,7 +15,7 @@ public class Variables {
         evliMi = true; //Assignment of variable evliMi
 
         System.out.println(evliMi);
-        System.out.println("Evli mi?: " + evliMi);
+        System.out.println("Evli mi? : " + evliMi);
 
         char subeAdi = 'A';
         System.out.println("Şube adı : " + subeAdi);
@@ -26,7 +26,10 @@ public class Variables {
         System.out.println("Karakter : " + karakter);
 
         karakter = 25343;
-        System.out.println("Karakter : " + karakter);
+        karakter = 8; //ASCII- Backspace--"\b"
+        /*karakter = 10; //ASCII- Line feed--"\n"
+        karakter = 13; //ASCII- Carriage return "\r"*/
+        System.out.println("Karakter :" + karakter + "deneme");
 
         //Tam sayılar için veri tipleri-  byte - short - int - Long
 
