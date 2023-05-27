@@ -32,13 +32,13 @@ public class LogicalOR {
         int b = 5;
         int c = 20;
 
-        //|| short circuit Conditional OR--->if first condition is true no need to check the second or others expressions
-        System.out.println(a > b || a++ < c); // true
+        // || short circuit Conditional OR--->if first condition is true no need to check the second or others expressions
+        System.out.println("a > b || a++ < c ---> " + (a > b || a++ < c)); // true
         System.out.println("a = " + a); // a = 10 - first condition is true therefore second is not checked
 
         System.out.println();
-        //| Logical OR---> the operator always evaluates both expressions.
-        System.out.println(a > b | a++ < c); //true
+        // | Logical OR---> the operator always evaluates both expressions.
+        System.out.println("a > b | a++ < c ---> " + (a > b | a++ < c)); //true
         System.out.println("a = " + a); // a = 11 because second condition is evaluates and a = 11
     }
 }

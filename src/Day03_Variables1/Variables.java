@@ -15,6 +15,7 @@ public class Variables {
         evliMi = true; //Assignment of variable evliMi
 
         System.out.println(evliMi);
+        System.out.println();
         System.out.println("Evli mi? : " + evliMi);
 
         char subeAdi = 'A';

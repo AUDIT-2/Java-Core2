@@ -23,17 +23,17 @@ public class FloatFormatter {
 
         //printf() metodu ile
         System.out.println("printf()-Yöntemiyle formatlı gösterim.");
-        System.out.printf("%.4f\n",floatDeger); // "\n" new line escape sequence
+        System.out.printf("$%.4f\n",floatDeger); // "\n" new line escape sequence
         System.out.println();
 
         //String.format() metodu ile
         System.out.println("String.format--> yöntemiyle gösterim.");
-        System.out.println(String.format("%.3f",floatDeger));
+        System.out.println(String.format("%.3f TL",floatDeger));
         System.out.println();
 
         //DecimalFormat Class ile
         System.out.println("DecimalFormat class yöntemi ile.");
-        DecimalFormat df = new DecimalFormat("#.##");
+        DecimalFormat df = new DecimalFormat("#.### TL");
         System.out.println("floatDeger(DecimalFormat) = " + df.format(floatDeger));
     }
 }

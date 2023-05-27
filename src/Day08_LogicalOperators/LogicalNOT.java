@@ -13,10 +13,10 @@ public class LogicalNOT {
         int a = 10;
         int b = 15;
 
-        //! (NOT) ---> değilini alma
+        // ! (NOT) ---> değilini alma
         // !(true)  ---> false
         // !(false) ---> true
-        System.out.println("(a > b) ---> " + (a > b)); //false
+        System.out.println(" (a > b) ---> " + (a > b)); //false
         System.out.println("!(a > b) ---> " + !(a > b)); // !(false) ---> true
     }
 }

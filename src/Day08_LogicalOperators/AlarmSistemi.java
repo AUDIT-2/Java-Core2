@@ -9,13 +9,17 @@ package Day08_LogicalOperators;
 
 public class AlarmSistemi {
     public static void main(String[] args) {
-        System.out.println("Alarm Sistemi...");
+        //Sensörler
         boolean anaKapi = false;
         boolean pencere1 = false;
         boolean pencere2 = false;
         boolean balkonKapisi = false;
 
         boolean alarmTetiklendiMi = false;
+
+        System.out.println("   Alarm Sistemi");
+        System.out.println("-------------------");
+        System.out.println();
 
         pencere2 = true;
         balkonKapisi = true;
