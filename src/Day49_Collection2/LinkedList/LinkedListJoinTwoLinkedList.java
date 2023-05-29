@@ -25,6 +25,7 @@ public class LinkedListJoinTwoLinkedList {
     }
     public static void main(String[] args) {
         System.out.println("Comparing two given list.");
+
         List<String> colors1 = new LinkedList<>();
         colors1.add("Red");
         colors1.add("Green");
@@ -42,11 +43,11 @@ public class LinkedListJoinTwoLinkedList {
 
         List<String> joinedList = new ArrayList<>();
 
-        joinedList = join(colors1,colors2);
+        joinedList = join(colors1,colors2); //Kendi yazdığımız metodu çağırıyoeuz.
         System.out.println("joinedList = " + joinedList);
         System.out.println();
 
-        //By using List interface methed addAll()
+        //By using List interface method addAll() .List interface inde tanımlı .addAll() metodu. Interface i implement eden bütün classlarda ortak
         List<String> joinedList1 = new LinkedList<>();
         joinedList1.addAll(colors1);
         joinedList1.addAll(colors2);
