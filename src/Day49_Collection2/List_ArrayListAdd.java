@@ -25,7 +25,7 @@ public class List_ArrayListAdd {
         colors.add(0,"Pink");
         System.out.println("Updated list  : " + colors);
 
-        //Traversing ArrayList by with using  for index
+        //Traversing ArrayList by with using indexed(Classic) for loop
         for (int i = 0; i < colors.size(); i++) {
             System.out.println("Element index : " + i  + "-" + colors.get(i));
         }
