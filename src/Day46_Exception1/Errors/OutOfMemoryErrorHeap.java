@@ -1,4 +1,4 @@
-package Day46_Execption1.Errors;
+package Day46_Exception1.Errors;
 
 import java.util.ArrayList;
 

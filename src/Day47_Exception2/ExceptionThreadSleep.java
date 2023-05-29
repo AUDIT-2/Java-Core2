@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day47_Execption2;
+package Day47_Exception2;
 
 public class ExceptionThreadSleep {
     public static void pauseCode(int seconds) throws InterruptedException,ArithmeticException{

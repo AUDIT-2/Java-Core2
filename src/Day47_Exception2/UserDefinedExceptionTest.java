@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day47_Execption2;
+package Day47_Exception2;
 
 import java.util.Scanner;
 

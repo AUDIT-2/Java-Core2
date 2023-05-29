@@ -54,3 +54,7 @@
 * [Day 43- Interface Class in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day43_Interface)
 * [Day 44- Polymorphism-1 Class in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day44_Polymorphism_1)
 * [Day 45- Polymorphism-2 Class in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day44_Polymorphism_2)
+* [Day 46- Exception1-1 Error Handling in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day46_Exception1)
+* [Day 47- Exception1-2 Error Handling in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day47_Exception2)
+* [Day 48- Collections-1 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day48_Collection1)
+* [Day 49- Collections-2 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day49_Collection2)

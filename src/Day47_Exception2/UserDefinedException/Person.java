@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day47_Execption2.UserDefinedException;
+package Day47_Exception2.UserDefinedException;
 
 public class Person {
     private String name;

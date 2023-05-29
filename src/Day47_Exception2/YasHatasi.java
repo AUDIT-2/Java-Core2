@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day47_Execption2;
+package Day47_Exception2;
 
 //User defined exception.
 public class YasHatasi extends RuntimeException {//RunTimeException-Unchecked

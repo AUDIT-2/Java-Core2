@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day46_Execption1.Errors;
+package Day46_Exception1.Errors;
 
 public class StackOverFlowError {
    static int counter = 0;

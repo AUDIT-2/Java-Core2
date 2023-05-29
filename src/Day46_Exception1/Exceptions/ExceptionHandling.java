@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day46_Execption1.Exceptions;
+package Day46_Exception1.Exceptions;
 
 public class ExceptionHandling {
 

@@ -1,4 +1,4 @@
-package Day46_Execption1.Exceptions;
+package Day46_Exception1.Exceptions;
 
 import java.util.Scanner;
 
