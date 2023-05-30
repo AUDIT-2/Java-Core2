@@ -12,10 +12,10 @@ import java.util.List;
 import java.util.Queue;
 
 public class Kasiyer extends Thread {
-    int kasiyerNo;
-    List<String> islemYapilanMusteriler;
-    Queue<String> musteriler;
-    int toplamCalismaSure;
+    int kasiyerNo; //Kasiyerin numarası
+    List<String> islemYapilanMusteriler; //Kasiyerin işlem yaptığı müşterilerin listesi
+    Queue<String> musteriler; //Markette bekleyen müşteriler
+    int toplamCalismaSure; //Kasiyerin toplam çalışma süresi
 
     public Kasiyer(int kasiyerNo,Queue musteriler){
         this.kasiyerNo = kasiyerNo;
@@ -23,6 +23,7 @@ public class Kasiyer extends Thread {
         this.islemYapilanMusteriler = new ArrayList<>();
     }
 
+    //.run() metodu herbir kasiyer için ayrı thread de çalışır. Multi threaded çalışacak kodlar bu metod içerisinde yazılmalıdır.
     @Override
     public void run() {
         while (!musteriler.isEmpty()){

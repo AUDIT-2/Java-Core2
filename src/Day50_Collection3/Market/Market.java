@@ -14,7 +14,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 public class Market {
     public static void main(String[] args) {
        // Queue<String> bekleyenMusteriler = new LinkedList<>();
-        Queue<String> bekleyenMusteriler = new LinkedBlockingQueue<>();
+        Queue<String> bekleyenMusteriler = new LinkedBlockingQueue<>(); //Multi threaded olduğundan thread safe bir Collection kullanmak daha sağlıklıdır.
 
         bekleyenMusteriler.add("Mehmet");
         bekleyenMusteriler.add("Ali");
@@ -27,7 +27,7 @@ public class Market {
         bekleyenMusteriler.add("Behiye");
         bekleyenMusteriler.add("Can");
 
-        System.out.println("Bekleyen müşteriler :" + bekleyenMusteriler);
+        System.out.println("Bekleyen müşteriler : " + bekleyenMusteriler);
 
        /* Kasiyer kasiyer1 = new Kasiyer(1,bekleyenMusteriler);
         kasiyer1.start();
