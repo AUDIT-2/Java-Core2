@@ -41,7 +41,6 @@ public class ArrayListVectorThread  {
         System.out.println("Vector adding performance(Seq.)    : " + (end-start));
         System.out.println();
 
-
         //Thread--ArrayList- not thread safe
         Thread t1 = new Thread(()->{
             int count = 0;
