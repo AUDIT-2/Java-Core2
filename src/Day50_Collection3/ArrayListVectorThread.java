@@ -39,36 +39,49 @@ public class ArrayListVectorThread  {
         }
         end = System.nanoTime();
         System.out.println("Vector adding performance(Seq.)    : " + (end-start));
+        System.out.println();
 
-        //Thread--ArrayList- n ot thread safe
+
+        //Thread--ArrayList- not thread safe
         Thread t1 = new Thread(()->{
-            System.out.println("Thread-1 Çalıştı");
+            int count = 0;
             for (int i = 0; i < size; i++) {
                 multiThreadArrayList.add(i);
+                count++;
             }
+            System.out.println("multiThreadArrayList Thread 1- " + count + " defa çalıştı.");
         });
         Thread t2 = new Thread(()->{
-            System.out.println("Thread-2 Çalıştı");
+            int count = 0;
             for (int i = 0; i < size; i++) {
                 multiThreadArrayList.add(i);
+                count++;
             }
+            System.out.println("multiThreadArrayList Thread 2- " + count + " defa çalıştı.");
         });
         t1.start();
         t2.start();
         t1.join();
         t2.join();;
         System.out.println("Size of multiThreadArrayList  : " + multiThreadArrayList.size());
+        System.out.println();
 
         //Thread--Vector Thread safe
          t1 = new Thread(()->{
+             int count = 0;
             for (int i = 0; i < size; i++) {
                 multiThreadVectorList.add(i);
+                count++;
             }
+             System.out.println("multiThreadVectorList Thread 1- " + count + " defa çalıştı.");
         });
          t2 = new Thread(()->{
-            for (int i = 0; i < size; i++) {
-                multiThreadVectorList.add(i);
-            }
+             int count = 0;
+             for (int i = 0; i < size; i++) {
+                 multiThreadVectorList.add(i);
+                 count++;
+             }
+             System.out.println("multiThreadVectorList Thread 2- " + count + " defa çalıştı.");
         });
         t1.start();
         t2.start();
