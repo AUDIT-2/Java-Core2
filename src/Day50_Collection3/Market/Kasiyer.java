@@ -26,18 +26,18 @@ public class Kasiyer extends Thread {
     @Override
     public void run() {
         while (!musteriler.isEmpty()){
-            int sure = 1000 + (int) (Math.random() * 9000);
-            String musteri = musteriler.poll();
-            islemYapilanMusteriler.add(musteri);
-            toplamCalismaSure += sure;
+            int sure = 1000 + (int) (Math.random() * 9000);//Rastgele bir süre oluşturur.(1-10 saniye)
+            String musteri = musteriler.poll(); //Bu kasiyer bekleyen müşterilerden sıradakini çağırır
+            islemYapilanMusteriler.add(musteri); //Bu kasiyer işlem yaptığı müşteriyi kendi listesine ekler
+            toplamCalismaSure += sure; //Bu kasiyerin toplam çalışma süresi
             System.out.println("Kasiyer - " + kasiyerNo + " müşteri - " + musteri + " süre : " + sure);
             try {
-                Thread.sleep(sure);
+                Thread.sleep(sure); //Rastgele belirlediğimiz süre bu thread ı bekletiyoruz.
             }catch (InterruptedException e){
                 System.out.println("Hata oluştu....");
             }
         }
-        System.out.println("İşlem yapan kasiyer : " + kasiyerNo + "--->Müşteriler : " +
+        System.out.println("İşlem yapan kasiyer : " + kasiyerNo + "---> Müşteriler : " +
                 islemYapilanMusteriler + " -Toplam çalışma süresi : " + toplamCalismaSure);
     }
 }
