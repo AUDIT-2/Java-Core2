@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day50_Collection3.MarketQue;
+package Day50_Collection3.MarketQueue;
 
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -37,7 +37,7 @@ public class Market {
         Kasiyer kasiyer3 = new Kasiyer(3,bekleyenMusteriler);
         kasiyer3.start();*/
 
-        int kasiyerSayisi = 15; //Multi thread çalışacak kasiyer sayısı
+        int kasiyerSayisi = 3; //Multi thread çalışacak kasiyer sayısı
         for (int i = 1; i <= kasiyerSayisi; i++) {
             Kasiyer kasiyer = new Kasiyer(i,bekleyenMusteriler);
             kasiyer.start();
