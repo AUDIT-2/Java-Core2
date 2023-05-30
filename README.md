@@ -58,3 +58,4 @@
 * [Day 47- Exception1-2 Error Handling in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day47_Exception2)
 * [Day 48- Collections-1 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day48_Collection1)
 * [Day 49- Collections-2 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day49_Collection2)
+* [Day 50- Collections-3 in Java](https://github.com/AUDIT-2/Java-Core2/blob/main/src/Day50_Collection3)
