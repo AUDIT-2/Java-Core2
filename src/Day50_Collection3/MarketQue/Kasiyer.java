@@ -5,7 +5,7 @@
  * armada.dscrd@gmail.com
  */
 
-package Day50_Collection3.Market;
+package Day50_Collection3.MarketQue;
 
 import java.util.ArrayList;
 import java.util.List;

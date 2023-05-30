@@ -5,9 +5,8 @@
  * armada.dscrd@gmail.com
  */
 
-package Day50_Collection3.Market;
+package Day50_Collection3.MarketQue;
 
-import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
 
