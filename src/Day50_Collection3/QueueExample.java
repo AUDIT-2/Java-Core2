@@ -31,14 +31,15 @@ public class QueueExample {
             System.out.println(eleman);
         }
         System.out.println();
-
-        /*sira.forEach((eleman)-> System.out.println(eleman)); //Anonymous function-lambda
-        sira.forEach(System.out::println); //Method referance*/
+        /*
+        sira.forEach((eleman)-> System.out.println(eleman)); //Anonymous function-lambda
+        sira.forEach(System.out::println); //Method referance
+        */
 
         String siradaki = "";
-        System.out.println("sira.peek() = " + sira.peek());
+        System.out.println("sira.peek() = " + sira.peek());//Queue daki sıradaki elemanı verir. Queue dan çıkartmaz
 
-        siradaki = sira.poll();
+        siradaki = sira.poll(); //Queue daki sıradaki elemanı verir. Queue dan çıkartır.
         kasiyer.add(siradaki);
         System.out.println("sira = " + sira);
         System.out.println("kasiyer = " + kasiyer);
@@ -73,7 +74,7 @@ public class QueueExample {
         System.out.println("sira = " + sira);
         System.out.println("kasiyer = " + kasiyer);
 
-        sira.poll(); //does not throw an exception if the queue is empty
+        sira.poll(); //does not throw an exception if the queue is empty returns null
         sira.remove(); //throws an exception if the queue is empty
 
        /* System.out.println("sira.poll() = " + sira.poll());
