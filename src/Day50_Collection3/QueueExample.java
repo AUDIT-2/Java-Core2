@@ -31,6 +31,7 @@ public class QueueExample {
             System.out.println(eleman);
         }
         System.out.println();
+
         /*sira.forEach((eleman)-> System.out.println(eleman)); //Anonymous function-lambda
         sira.forEach(System.out::println); //Method referance*/
 
