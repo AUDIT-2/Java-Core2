@@ -38,7 +38,7 @@ public class Market {
         Kasiyer kasiyer3 = new Kasiyer(3,bekleyenMusteriler);
         kasiyer3.start();*/
 
-        int kasiyerSayisi = 15;
+        int kasiyerSayisi = 15; //Multi thread çalışacak kasiyer sayısı
         for (int i = 1; i <= kasiyerSayisi; i++) {
             Kasiyer kasiyer = new Kasiyer(i,bekleyenMusteriler);
             kasiyer.start();
