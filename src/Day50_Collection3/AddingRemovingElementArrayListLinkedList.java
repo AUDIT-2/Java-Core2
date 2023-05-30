@@ -10,12 +10,14 @@ package Day50_Collection3;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Vector;
 
 public class AddingRemovingElementArrayListLinkedList {
     public static void main(String[] args) {
         //Test ArrayList adding and removing element performance
         List<Integer> arrayList = new ArrayList<>();
         List<Integer> linkedList = new LinkedList<>();
+        List<Integer> vector = new Vector<>();
 
         long start = 0;
         long end = 0;
@@ -50,7 +52,7 @@ public class AddingRemovingElementArrayListLinkedList {
         System.out.println("ArrayList adding and removing in list : " + (end-start) + " ms");
         System.out.println();
 
-       // arrayList = null;
+       // arrayList = null; //Assigning null reference to object, when necessary garbage collection may dispose the arrayList object from memory
         arrayList.clear(); //Clearing of all items from ArrayList.
 
         //Adding items to LinkedList
@@ -77,7 +79,6 @@ public class AddingRemovingElementArrayListLinkedList {
         linkedList.remove(50);
 
         end = System.currentTimeMillis();
-
         System.out.println("LinkedList adding and removing in list : " + (end-start) + " ms");
     }
 }
