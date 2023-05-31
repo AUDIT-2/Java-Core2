@@ -24,9 +24,17 @@ public class Hasta implements Comparable{
                 '}';
     }
 
+    //Priority property sine göre karşılaştırma-önceliklendirme
     @Override
     public int compareTo(Object o) {
         return  ((Hasta)o).priority - this.priority; //Büyükten küçüğe
-      //  return this.priority - ((Hasta)o).priority; //Küçükten büyüğe
+      // return this.priority - ((Hasta)o).priority; //Küçükten büyüğe
     }
+
+    //Name property sine göre karşılaştırma-önceliklendirme
+   /* @Override
+    public int compareTo(Object o) {
+        return this.name.compareTo(((Hasta)o).name) ; //Küçükten büyüğe
+     //   return  ((Hasta)o).name.compareTo(this.name) ; //Büyükten küçüğe
+    }*/
 }
