@@ -26,6 +26,7 @@ public class PriorityQueueExample {
         queue.add(1);
         queue.add(100);
 
+
         System.out.println("Queue : " + queue);
         System.out.println(queue.poll());
         System.out.println(queue.poll());
@@ -33,6 +34,8 @@ public class PriorityQueueExample {
         System.out.println(queue.poll());
 
         System.out.println();
+
+        // Adding element to priorityqueue
         System.out.println("PriorityQueue............");
         priorityQueue.add(12);
         priorityQueue.add(14);
@@ -42,8 +45,11 @@ public class PriorityQueueExample {
         priorityQueue.add(1);
         priorityQueue.add(100);
 
+        // When retrieving the element each time it gives according to natural order (from small to bigger)
         System.out.println("PriorityQueue : " + priorityQueue);
-        System.out.println(priorityQueue.poll());
+
+        System.out.println(priorityQueue.peek()); //Retrieves the element from PriorityQueue but element is not removed
+        System.out.println(priorityQueue.poll()); //Retrieves the element from PriorityQueue and element is removed
         System.out.println(priorityQueue.poll());
         System.out.println(priorityQueue.poll());
         System.out.println(priorityQueue.poll());
@@ -58,6 +64,10 @@ public class PriorityQueueExample {
         System.out.println("isimler.poll() = " + isimler.poll());
         System.out.println("isimler.poll() = " + isimler.poll());
         System.out.println("isimler.poll() = " + isimler.poll());
+
+        // get method can not be used in PriorityQueue
+        // Because its focus is always giving the first element according to natural order
+        // priority.get(0);
 
     }
 }
