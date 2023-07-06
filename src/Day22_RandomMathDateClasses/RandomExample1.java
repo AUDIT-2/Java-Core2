@@ -39,6 +39,6 @@ public class RandomExample1 {
         int ustSinir = 99;
 
         rasgeleSayiUret(altSinir,ustSinir);
-        rastgeleayiUret(altSinir,ustSinir,1000);
+        rastgeleayiUret(altSinir,ustSinir,10);
     }
 }

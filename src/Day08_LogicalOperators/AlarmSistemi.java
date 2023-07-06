@@ -9,6 +9,7 @@ package Day08_LogicalOperators;
 
 public class AlarmSistemi {
     public static void main(String[] args) {
+        //SINIF GEÇME hesabı da yapılabilir--vize1....
         //Sensörler
         boolean anaKapi = false;
         boolean pencere1 = false;

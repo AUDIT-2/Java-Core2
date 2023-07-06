@@ -26,7 +26,7 @@ public class AsalSayi {
     }
     //Bir sayının asal sayı olup olmadığını bulan metod
     public static boolean asalMi(int sayi){
-        for (int i = 2; i <= sayi / 2  ; i++) {
+        for (int i = 2; i <= sayi / 2; i++) {
             if(sayi % i == 0){ //true ise kendisinden başka bir sayıya daha bölünebiliyor demektir o yüzden asal sayı değildir.
                 return false;
             }

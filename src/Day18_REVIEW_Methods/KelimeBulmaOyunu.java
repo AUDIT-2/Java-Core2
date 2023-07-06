@@ -46,6 +46,11 @@ public class KelimeBulmaOyunu {
                 System.out.println(tahminSayisi + " tahminde bildiniz.");
                 break;
             }else System.out.println("Kelimeyi doğru tahmin edemediniz!");
+            if(tahminKelime.equals("bitir")) {
+                System.out.println("Kelime tahmin oyununu oynadığınız için teşekkürler.");
+                System.out.println("Programdan çıkılıyor.");
+                break;
+            }
         }
     }
     public static void menu(){

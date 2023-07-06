@@ -14,18 +14,18 @@ public class GreatestNumber {
         System.out.println("greatestNumber(23,12,67) = " + greatestNumber(23, 12, 67));
         System.out.println("greatestNumber(12,3,-12) = " + greatestNumber(12, 3, -12));
 
-        int enBuyukSayi = greatestNumber(10,5,3);
+        int enBuyukSayi = greatestNumber(10, 5, 3);
         System.out.println("enBuyukSayi = " + enBuyukSayi);
 
     }
 
-    public static int greatestNumber(int a, int b, int c){
-       int max = 0;
-           if(a > b && a > c){
-               max = a;
-           } else if (b > c) {
-               max = b;
-           } else max = c;
+    public static int greatestNumber(int a, int b, int c) {
+        int max = 0;
+        if (a > b && a > c) {
+            max = a;
+        } else if (b > c) {
+            max = b;
+        } else max = c;
         return max;
     }
 }

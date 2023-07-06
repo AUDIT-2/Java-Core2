@@ -20,7 +20,7 @@ public class LocalDateTarihHesapla {
         return buYil - year;
     }
     public static void main(String[] args) {
-        System.out.println("ageCalculate(1976) = " + ageCalculate(1976));
-        System.out.println("ageCalculate(2000) = " + ageCalculate(2000));
+        System.out.println("ageCalculate(1976) = " + ageCalculate(1993));
+        System.out.println("ageCalculate(2000) = " + ageCalculate(1967));
     }
 }

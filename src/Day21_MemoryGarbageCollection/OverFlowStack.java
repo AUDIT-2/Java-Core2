@@ -23,7 +23,7 @@ public class OverFlowStack {
 
     public static void main(String[] args) {
         System.out.println("Stack Memory Error-Example");
-        //recursiveMethod(1);
+        recursiveMethod(1);
         recursiveMethodDogru(1);
     }
 }

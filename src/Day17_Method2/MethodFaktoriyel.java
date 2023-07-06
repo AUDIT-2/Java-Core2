@@ -13,7 +13,7 @@ public class MethodFaktoriyel {
         return faktoriyel;
     }
     public static void main(String[] args) {
-        System.out.println("faktoriyelHesapla(3) = " + faktoriyelHesapla(3));
+        System.out.println("faktoriyelHesapla(3) = " + faktoriyelHesapla(5));
         System.out.println("faktoriyelHesapla(10) = " + faktoriyelHesapla(10));
 
         int fktryl = faktoriyelHesapla(8);

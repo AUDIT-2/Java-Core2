@@ -15,7 +15,7 @@ public class FloatFormatter {
      */
     public static void main(String[] args){
         System.out.println("Float ve Double tipi değerlerin formatlı gösterimi.");
-        float floatDeger = 25.34537f;
+        float floatDeger = 25.34838537f;
         double doubleDeger = 34556789345343463645645987457567567567567D;
 
         System.out.println("floatDeger = " + floatDeger);

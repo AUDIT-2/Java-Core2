@@ -28,7 +28,7 @@ public class ForLoopKurallar {
         System.out.println();
 
         //Birden fazla şartı kontrol etme
-        for (int i = 3; i < 5 && i > 2; i++) {
+        for (int i = 2; i < 8 && i >= 2; i++) {
             System.out.println(i);
         }
         System.out.println();
@@ -51,6 +51,12 @@ public class ForLoopKurallar {
         //Char tipinde bir değişken
         for (char harf = 'A'; harf < 'Z'; harf++) {
             System.out.print(harf + " ");
+        }
+        System.out.println();
+        //Char tipinde bir değişken ve int tipinde bir değişken
+        for (int k = 1, m = 'A'; m < 'z'; k++,m++){
+            System.out.print((char) m + "");
+            if(k % 5 == 0) System.out.println(); // her satır 5 harf
         }
         //Sonsuz for döngüsü
         /*for(;;){

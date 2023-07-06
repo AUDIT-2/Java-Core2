@@ -21,7 +21,7 @@ public class StringClass {
 
         //(==) yapılan karşılaştırma heriki objeninde referans adresleri aynı mı? karşılaştırmasıdır.
         // Literal değer atama ile oluşturulan nesneler JVM tarafından String pool a eklendiğinden
-        // pool da bulunan nesneye bir den birden fazla referans olabilir.
+        // pool da bulunan nesneye birden fazla referans olabilir.
         // Dolayısıyla literal tanımlamada yapılan (==) karşılaştırması da yine değişkenlerin referans ettikleri nesnenin adresi üzerinden olacaktır.
         //Bu durumda str1 == str2 herikisi de pooldaki aynı nesneye referans ettiğinden sonuç 'true' olacaktır.
 

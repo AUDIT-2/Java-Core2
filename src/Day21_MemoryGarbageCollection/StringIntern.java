@@ -14,7 +14,7 @@ public class StringIntern {
         Bu nedenle, ne zaman new anahtar sözcüğünü kullanarak bir String oluşturduğumuzda, heap te karşılık gelen String nesnesi için yeni bellek ayrılır.
          */
 
-        String str1 = new String("Ali"); //Heap te bir kendisine ait bir referans adresi ile bir nesne oluşur.
+        String str1 = new String("Ali"); //Heap te kendisine ait bir referans adresi ile bir nesne oluşur.
 
         //.intern() metodu heap te String pool un dışında oluşan String tipi bir nesnenin değerin(value) pool a koymak için kullanılır.
         String str2 = str1.intern();//str1 nesnesinin değerini String pool a koyduk. Ve pooldaki "Ali" nin referans adresini str2 nesnesine atadık.

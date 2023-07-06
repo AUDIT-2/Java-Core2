@@ -18,7 +18,7 @@ public class MarketProg {
         Product urun2 = new Product("Peynir",185,1.5);
         Product urun3 = new Product("Zeytin",75,2);
 
-        System.out.println("Halk Market YazarNEW Kasa Fişi");
+        System.out.println("Halk Market Yazar Kasa Fişi");
         System.out.println("---------------------------");
         System.out.println(urun2.name + " " + " " + urun2.ammount + " " + urun2.unitPrice + " " + urun2.fiyatHesapla() + " Kdv hariç");
         System.out.println("                   " + urun2.kdvHesapla() + " Kdv dahil");

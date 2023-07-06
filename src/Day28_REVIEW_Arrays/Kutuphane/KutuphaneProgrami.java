@@ -53,7 +53,7 @@ public class KutuphaneProgrami {
             if( kutuphane.kitaplar[i] != null ) continue;
             kutuphane.kitaplar[i] = new Kitap();
 
-            System.out.print("KitapNEW adını giriniz: ");
+            System.out.print("Kitap adını giriniz: ");
             kutuphane.kitaplar[i].ismi = verGir.nextLine().trim();
 
             System.out.print("Kitabın türü : ");
@@ -62,15 +62,15 @@ public class KutuphaneProgrami {
 
             for (int j = 0; j < kutuphane.kitaplar[i].yazarlar.length; j++) {
                 kutuphane.kitaplar[i].yazarlar[j] = new Yazar();
-                System.out.print("YazarNEW adını giriniz : ");
+                System.out.print("Yazar adını giriniz : ");
                 kutuphane.kitaplar[i].yazarlar[j].adi = verGir.nextLine();
-                System.out.print("YazarNEW  eklemeye devam etmek istiyor musun? ---> ");
+                System.out.print("Yazar eklemeye devam etmek istiyor musun? ---> ");
                 devammi = verGir.nextLine().trim();
                 if (devammi.equals("h")){
                     break;
                 }
             }
-            System.out.print("KitapNEW eklemeye devam etmek istiyor musun? ---> ");
+            System.out.print("Kitap eklemeye devam etmek istiyor musun? ---> ");
             devammi = verGir.nextLine().trim();
             if (devammi.equals("h")){
                 break;

@@ -16,23 +16,23 @@ public class ForLoop {
 
         //Ekrana 10 defa "Merhaba Java" yazan bir for loop oluşturun.
         System.out.println();
-        for (int i = 0; i < 10;i++){
+        for (int i = 1; i < 10;i++){
             //loop body
             System.out.println(i + "-Merhaba java.");
             if(i % 4 == 0){
-                System.out.println(i + "-Hello Java.");
+                System.out.println("  ->Hello Java.");
             }
         }
         System.out.println();
 
         //While loop
         System.out.println("While loop");
-        int sayac = 0;
+        int sayac = 1;
         while (sayac < 10){
             //loop body
             System.out.println(sayac + "-Merhaba Java(while)");
             if(sayac % 4 == 0){
-                System.out.println(sayac + "-Hello Java.");
+                System.out.println("  ->Hello Java.");
             }
             sayac++;
         }

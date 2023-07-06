@@ -40,5 +40,6 @@ public class UserInputs {
         System.out.print("Klavyeden boolean tipinde bir veri giriniz : ");
         boolean boolean1 = scanner.nextBoolean()    ;
         System.out.println("Girdiğiniz değer = " + boolean1);
+        // Uygun olmayan data tipi ile giriş yapıldığında  InputMismatchException hatası alırız.
     }
 }
