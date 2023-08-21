@@ -39,7 +39,7 @@ public class KisiRehberProg {
 */
       //  Kisi.isimdenBul(rehberim,"Ah");
        //Kisi.advesoyadtanBul(rehberim,"Ah","Fa");
-        Kisi.telefonBul(rehberim,3456722);
+        Kisi.telefonBul(rehberim,17890);
   //    Kisi.listele(rehberim);
 
     }

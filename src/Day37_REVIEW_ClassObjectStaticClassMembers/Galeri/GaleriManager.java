@@ -7,9 +7,12 @@
 
 package Day37_REVIEW_ClassObjectStaticClassMembers.Galeri;
 
+import static Day37_REVIEW_ClassObjectStaticClassMembers.Galeri.Galeri.*;
+
 import java.util.Scanner;
 
 public class GaleriManager {
+
     public static void arabaEkle(){
         Scanner scanner = new Scanner(System.in);
         String name = "";
@@ -35,7 +38,7 @@ public class GaleriManager {
         System.out.println("Galeri.name = " + Galeri.name);
         System.out.println("Galeri.address = " + Galeri.address);
 
-       // Galeri.showArabalar();
+        // Galeri.showArabalar();
         Galeri.listArabalarByName("ford");
         Galeri.listArabalarByName("toyota");
         Galeri.listArabalarByNameModel("toyota","corolla");

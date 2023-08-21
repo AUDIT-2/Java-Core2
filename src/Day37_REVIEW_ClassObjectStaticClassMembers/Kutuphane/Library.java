@@ -14,13 +14,38 @@ public class Library {
     private String name;
     private String address;
 
-    private ArrayList<Book> books;
+    private static ArrayList<Book> books;
 
+    static {
+        books = new ArrayList<>();
+        Book book = new Book("Nutuk","Tarih","TR-Yayınevi","ISBN-78128713");
+        Book book1 = new Book("Çalıkuşu","Roman","ABC-Yayınevi","ISBN-79828713");
+        Book book2 = new Book("İnce Memed","Roman","ABC-Yayınevi","ISBN-728713");
+
+        Author author = new Author("M.Kemal");
+        Author author1 = new Author("Atatürk");
+        Author author2 = new Author("Reşat Nuri Gültekin");
+        Author author3 = new Author("Anonim");
+
+        book.addAuthor(author);
+        book.addAuthor(author1);
+
+        book.addAuthor(author3);
+        book1.addAuthor(author2);
+        book1.addAuthor(author3);
+
+        book2.addAuthor(new Author("Yaşar Kemal"));
+
+        books.add(book);
+        books.add(book1);
+        books.add(book2);
+
+    }
     public Library(String name, String address) {
         setName(name);
         setAddress(address);
-        this.address = address;
-        books = new ArrayList<>();
+       // this.address = address;
+
     }
 
     public String getName() {

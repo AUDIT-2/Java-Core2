@@ -27,7 +27,7 @@ public class PersonAdresTest {
 
         Rehber.addRehber(person1);
 
-        //Başka bir yöntemle Perso ve Adres ekleme.
+        //Başka bir yöntemle Personel ve Adres ekleme.
         Rehber.addRehber(new Person("John Smith",
                 new Adres("ABC Caddesi ","XYZ İlçesi","ANKARA"),
                 new Adres("Okullar Caddesi","Mektep İlçesi","ANKARA"),

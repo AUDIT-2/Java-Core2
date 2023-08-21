@@ -7,8 +7,6 @@
 
 package Day37_REVIEW_ClassObjectStaticClassMembers.Galeri;
 
-import Day36_StaticClassMembers_1.StaticAndNonStaticBlock;
-
 import java.util.ArrayList;
 
 public class Galeri {

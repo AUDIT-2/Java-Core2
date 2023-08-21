@@ -56,7 +56,7 @@ public class Kisi {
         System.out.println("-------------------------------------");
         int sayac = 0;
         for (Kisi kisi :rehber){
-            if (kisi!=null && kisi.soyadi != null && kisi.adi.contains(soyad)){
+            if (kisi!=null && kisi.soyadi != null && kisi.soyadi.contains(soyad)){
                 sayac++;
                 kisi.printInfo();
                 System.out.println("------------------");
@@ -86,7 +86,7 @@ public class Kisi {
     }
     public static void telefonBul(Kisi[] rehber, int telefon){
         //Odev olarak bu metodu tamamlayınız.
-        System.out.println("İsimden bul metodu çalıştı");
+        System.out.println("Telefondan bul metodu çalıştı");
         System.out.println("Rehberimdeki " + telefon + " telefon numaralı kişilerin bilgileri");
         System.out.println("-------------------------------------");
         int sayac = 0;

@@ -23,6 +23,7 @@ public class ExampleConvertTimeStamp {
     }
     public static void main(String[] args) {
         String date = "30/12/2021 17:35:00";
+        System.out.println("date = " + date);
 
         System.out.println(timeStamp(date));
 

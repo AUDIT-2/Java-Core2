@@ -18,6 +18,8 @@ public class ExampleFindVowels {
                 }
             }
         }
+
+        //Sona konulan , ü atmak için
         String tempResult = "";
         for (int i = 0; i < result.length()-1; i++) {
            tempResult += result.charAt(i);

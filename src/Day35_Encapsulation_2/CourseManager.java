@@ -92,6 +92,10 @@ public class CourseManager {
 
         addStudent(course1);
         System.out.println(course1.showStudents());
+        System.out.println("lesson1.showTeachers() = " + lesson1.showTeachers());
+        System.out.println("lesson1.showStudents() = " + lesson1.showStudents());
+        System.out.println("lesson2.showTeachers() = " + lesson2.showTeachers());
+        System.out.println("lesson2.showStudents() = " + lesson2.showStudents());
     }
 
 

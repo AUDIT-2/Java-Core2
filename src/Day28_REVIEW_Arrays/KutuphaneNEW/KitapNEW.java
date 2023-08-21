@@ -27,7 +27,7 @@ public class KitapNEW {
         this.turu = turu;
     }
 
-    public YazarNEW[]yazarlarListe() {
+    public YazarNEW[] yazarlarListe() {
         return yazarlar;
     }
 

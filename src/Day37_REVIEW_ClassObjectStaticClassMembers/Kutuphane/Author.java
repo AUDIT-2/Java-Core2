@@ -7,8 +7,6 @@
 
 package Day37_REVIEW_ClassObjectStaticClassMembers.Kutuphane;
 
-import java.util.ArrayList;
-
 public class Author {
     private static int id = 9000;
     private int authorNo;

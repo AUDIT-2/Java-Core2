@@ -7,6 +7,9 @@
 
 package Day36_StaticClassMembers_1;
 
+import java.time.LocalDate;
+import java.time.Period;
+
 public class HesapMakinesi {
     //Utility--Helper Class
     public static double result;
@@ -28,6 +31,12 @@ public class HesapMakinesi {
             result += sayi;
         }
         return result;
+    }
+    public static int calculateAge(LocalDate birthDate) {
+        LocalDate currentDate = LocalDate.now();
+        Period period = Period.between(currentDate,birthDate);
+    //   Period period = Period.between(LocalDate.of(1967,11,5), currentDate);
+        return period.getYears();
     }
 
 }

@@ -28,7 +28,7 @@ public class ArrayListExample5 {
         System.out.println("isimler(unsorted) = " + isimler);
 
         boolean sildinMi;
-        sildinMi = isimler.removeAll(Arrays.asList("Kaan"));
+        sildinMi = isimler.removeAll(Arrays.asList("Kaan","Ali"));
         System.out.println("sildinMi = " + sildinMi);
         System.out.println("isimler(unsorted) = " + isimler);
 

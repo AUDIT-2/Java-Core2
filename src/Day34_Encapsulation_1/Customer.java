@@ -43,12 +43,13 @@ public class Customer {
         account.withdraw(ammount);
     }
     public void showAccounts(){
+        System.out.println("Name of customer : " + this.getName());
         for (Account account: getAccounts()) {
-            System.out.println("Name of customer : " + this.getName());
-            System.out.println("Account number   : " + account.getNumber());
-            System.out.println("Account type     : " + account.getType());
-            System.out.println("Account balance  : " + account.getBalance());
-            System.out.println("----------------------------------------");
+           // System.out.println("Name of customer : " + this.getName());
+            System.out.println("    Account number   : " + account.getNumber());
+            System.out.println("    Account type     : " + account.getType());
+            System.out.println("    Account balance  : " + account.getBalance());
+            System.out.println("--------------------------------------------------------");
         }
     }
 }

@@ -25,16 +25,16 @@ public class Kutuphane {
         for (int i = 0; i < kitaplar.length; i++) {
             kitaplar[i] = new Book();
 
-            System.out.print("KitapNEW adını giriniz : ");
+            System.out.print("Kitap adını giriniz : ");
             kitaplar[i].name =  veriGir.nextLine().trim();
-            System.out.print("YazarNEW adını giriniz : ");
+            System.out.print("Yazar adını giriniz : ");
             kitaplar[i].author = veriGir.nextLine().trim();
             System.out.print("Basım tarihi : ");
             kitaplar[i].dateofPublish = veriGir.nextInt();
 
             String devammi = "";
             if (i < kitaplar.length-1){ //son kitaptan sonra devam edip etmeyeceğimizi sorma
-                System.out.print("KitapNEW eklemeye devam edecek misiniz? ");
+                System.out.print("Kitap eklemeye devam edecek misiniz? ");
                 veriGir.nextLine(); //.nextInt() metodundan sonra bufferda kalanları boşaltmak için
                 devammi = veriGir.nextLine().trim();
                 if (devammi.equals("hayır")){
@@ -44,7 +44,7 @@ public class Kutuphane {
 
         }
         System.out.println();
-        System.out.println("KitapNEW listesi");
+        System.out.println("Kitap listesi");
         System.out.println("--------------");
         for (Book kitap: kitaplar) {
            if(kitap != null){ //Oluşturulmuş kitapları listele

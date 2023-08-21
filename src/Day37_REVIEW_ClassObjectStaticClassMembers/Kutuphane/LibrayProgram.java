@@ -11,7 +11,7 @@ public class LibrayProgram {
     public static void main(String[] args) {
         Library library = new Library("Halk Kütüphanesi","Atatürk Caddesi no:1923");
 
-        Book book = new Book("Nutuk","Tarih","TR-Yayınevi","ISBN-78128713");
+       /* Book book = new Book("Nutuk","Tarih","TR-Yayınevi","ISBN-78128713");
         Book book1 = new Book("Çalıkuşu","Roman","ABC-Yayınevi","ISBN-79828713");
         Book book2 = new Book("İnce Memed","Roman","ABC-Yayınevi","ISBN-728713");
 
@@ -29,12 +29,12 @@ public class LibrayProgram {
 
         book2.addAuthor(new Author("Yaşar Kemal"));
 
-       /* library.addBook(book);
+       *//* library.addBook(book);
         library.addBook(book1);
-        library.addBook(book2);*/
+        library.addBook(book2);*//*
 
         //VarArgs
-        library.addBook(book,book1,book2);
+        library.addBook(book,book1,book2);*/
 
         System.out.println("library = " + library);
 
