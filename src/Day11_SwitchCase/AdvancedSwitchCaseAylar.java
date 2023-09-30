@@ -88,6 +88,8 @@ public class AdvancedSwitchCaseAylar {
         if (month !=""){
             System.out.println("Klavyeden girdiğiniz ay bilgisi : " + month);
         }
+
+
         //Advanced Switch case
         System.out.println();
         System.out.println("Advanced switch case...");
@@ -111,5 +113,22 @@ public class AdvancedSwitchCaseAylar {
             System.out.println("Sonbahar aylarındandır.");
         else
             System.out.println("Yanlış ay bilgisi girdiniz. 1-12 arası bir değer olmalı. ");
+        System.out.println();
+
+        //Advanced switch case with assigning result to variable
+        System.out.println("Advanced switch case(variable)...implementasyonu");
+        System.out.print("Klavyeden bir gün değeri giriniz(1-7) : ");
+        int day = ayGir.nextInt();
+        String dayTxt = switch (day){
+            case 1 -> "Pazartesi";
+            case 2 -> "Salı";
+            case 3 -> "Çarşamba";
+            case 4 -> "Perşembe";
+            case 5 -> "Cuma";
+            case 6 -> "Cumartesi";
+            case 7 -> "Pazar";
+            default -> "1-7 aralığında bir gün değeri girmeliydiniz!";
+        };
+        System.out.println(dayTxt);
     }
 }
