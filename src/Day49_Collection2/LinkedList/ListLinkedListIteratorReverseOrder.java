@@ -11,7 +11,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 
-public class ListLinkedListReverseOrder {
+public class ListLinkedListIteratorReverseOrder {
     public static void main(String[] args) {
         // create an empty linked list
         LinkedList<String> linkedList = new LinkedList<>();

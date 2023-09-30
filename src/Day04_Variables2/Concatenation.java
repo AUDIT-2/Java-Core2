@@ -14,15 +14,15 @@ public class Concatenation {
         float miktar;
         float toplamKDVsiz;
         float toplamKDVli;
-        float kdvGida = 1.18F;
+        final float KDV_GIDA = 1.18F; //constant--- when initialize, later the value can not be changed.
 
         elmaFiyati = 50.0F;
         miktar = 2.0F;
 
         toplamKDVsiz = elmaFiyati * miktar;
-       // toplamKDVli = elmaFiyati * miktar * kdvGida;
+        // toplamKDVli = elmaFiyati * miktar * kdvGida;
 
-        toplamKDVli = toplamKDVsiz * kdvGida;
+        toplamKDVli = toplamKDVsiz * KDV_GIDA;
 
         float toplamKDV;
         toplamKDV = toplamKDVli - toplamKDVsiz;
@@ -30,8 +30,8 @@ public class Concatenation {
         System.out.println("Elmanın kilogram fiyatı = " + elmaFiyati);
         System.out.println("Alınan miktar(kilogram) = " + miktar);
         System.out.println("KDV siz toplam fiyat    = " + toplamKDVsiz);
-       // System.out.println("Toplam KDV ............ = " + toplamKDV);
-        System.out.println("Toplam KDV ............ = " + ( toplamKDVli - toplamKDVsiz));
+        // System.out.println("Toplam KDV ............ = " + toplamKDV);
+        System.out.println("Toplam KDV ............ = " + (toplamKDVli - toplamKDVsiz));
 
         System.out.println("KDV li toplam fiyat     = " + toplamKDVli);
 

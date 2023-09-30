@@ -26,7 +26,7 @@ public class ListLinkedListClone {
         //Cloning a LinkedList with
         LinkedList<String > newCloned;
         //newCloned = (LinkedList) ((LinkedList<String>) linkedList).clone(); //List interface ile kullanırsak bu şekilde cast yapmamız gerekir.
-        newCloned = (LinkedList<String>) linkedList.clone();
+        newCloned = (LinkedList<String>) linkedList.clone(); //List interface ile bir instance oluşturulursa cast etmek gerekir.
         System.out.println("Cloned linked list   : " + newCloned);
     }
 }

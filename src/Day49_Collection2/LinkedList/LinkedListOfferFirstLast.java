@@ -22,6 +22,7 @@ public class LinkedListOfferFirstLast {
 
         //System.out.println(((LinkedList<String>) list).offerFirst("Blue"));
 
+        // Add an element to front of LinkedList- if the element added successfully returns true
         if(((LinkedList<String>) list).offerFirst("Blue")){
             System.out.println("\"Blue\" listeye eklendi.");
         }else System.out.println("\"Blue\" listeye eklenemedi.");

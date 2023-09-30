@@ -15,17 +15,16 @@ public class Odev1 {
         int z = 200;
 
         int a, b, c;
-        a = ++x;
-        b = y++;
-        c = x + y++ + ++z;  // c = 51 + 101 + 201
+        a = ++x; //x becomes 50 + 1 = 51 then a = 51
+        b = y++; // b = 100 after this line y becomes 100 + 1 = 101
+        c = x + y++ + ++z;  // c = 51 + 101 + (200 + 1) ---> c = 353
 
-        System.out.println("x = " + x);
-        System.out.println("y = " + y);
-        System.out.println("z = " + z);
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
-        System.out.println("c = " + c);
-
+        System.out.println("x = " + x); //---> 51
+        System.out.println("y = " + y); //---> 102
+        System.out.println("z = " + z); //---> 201
+        System.out.println("a = " + a); //---> 51
+        System.out.println("b = " + b); //---> 100
+        System.out.println("c = " + c); //---> 353
 
     }
 }

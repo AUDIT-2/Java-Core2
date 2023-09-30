@@ -52,5 +52,9 @@ public class LinkedListJoinTwoLinkedList {
         joinedList1.addAll(colors1);
         joinedList1.addAll(colors2);
         System.out.println("joinedList1 = " + joinedList1);
+
+        // Add the collection in the second position of the existing linked list
+        joinedList1.addAll(3, colors1);
+        System.out.println("joinedList1 = " + joinedList1);
     }
 }

@@ -18,10 +18,11 @@ public class Odev2 {
          */
         System.out.println("1.Sorunun çözümü: ");
         int x = 10;
-        int m = ++x * x++; // m = 11 * 11
+        int m = ++x * x++; // m = (10 + 1) * 11
 
         System.out.println("x = " + x);
         System.out.println("m = " + m);
+        System.out.println("x = " + x);
 
         /* 2-Soru
 

@@ -17,10 +17,20 @@ public class BankalarTest {
         bank2.name = "XYZ Bankası";
         bank2.address = "XYZ Caddesi";
 
+        Banka banka3 = new ABCBank();
+        banka3.name = "BANKA3";
+
+
         System.out.println("bank1.getRateOfInterest() = " + bank1.getRateOfInterest());
+        System.out.println("bank1.getRateSuper() = " + bank1.getRateSuper());
+
         System.out.println("bank2.getRateOfInterest() = " + bank2.getRateOfInterest());
+
+        System.out.println("banka3.getRateOfInterest() = " + banka3.getRateOfInterest());
+        System.out.println("((ABCBank)banka3).getRateSuper() = " + ((ABCBank) banka3).getRateSuper());
 
         System.out.println(bank1);
         System.out.println(bank2);
+        System.out.println(banka3);
     }
 }

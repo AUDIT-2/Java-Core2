@@ -7,8 +7,6 @@
 
 package Day50_Collection3;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 
@@ -25,7 +23,7 @@ public class VectorExample {
         System.out.println();
         System.out.println(vectorList);
 
-        for (Integer eleman: vectorList){
+        for (Integer eleman : vectorList) {
             System.out.println(eleman);
         }
     }

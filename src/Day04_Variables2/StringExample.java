@@ -17,7 +17,7 @@ public class StringExample {
         boolean gectiMi;
         char subeAdi = 'B';
 
-        String ogrenciAd; //Metinsel-text türü verileri saklayabileceğimiz veri tip
+        String ogrenciAd; //Metinsel-text türü verileri saklayabileceğimiz non primitive veri tipi
 
         ogrenciAd = "Ayşe Smith";
 

@@ -21,7 +21,7 @@ public class ArrayListVectorThread  {
         List<Integer> multiThreadArrayList = new ArrayList<>();
         List<Integer> multiThreadVectorList = new Vector<>();
 
-        int size = 1000;
+        int size = 100_000; //Number of elements
         long start = 0;
         long end = 0;
 
@@ -50,6 +50,7 @@ public class ArrayListVectorThread  {
             }
             System.out.println("multiThreadArrayList Thread 1- " + count + " defa çalıştı.");
         });
+
         Thread t2 = new Thread(()->{
             int count = 0;
             for (int i = 0; i < size; i++) {
@@ -61,8 +62,10 @@ public class ArrayListVectorThread  {
         t1.start();
         t2.start();
         t1.join();
-        t2.join();;
+        t2.join();
+
         System.out.println("Size of multiThreadArrayList  : " + multiThreadArrayList.size());
+        System.out.println("Missing number of elements    : " + ((2 * size) - multiThreadArrayList.size()));
         System.out.println();
 
         //Thread--Vector Thread safe
@@ -87,5 +90,6 @@ public class ArrayListVectorThread  {
         t1.join();
         t2.join();;
         System.out.println("Size of multiThreadVectorList : " + multiThreadVectorList.size());
+        System.out.println("Missing number of elements    : " + ((2 * size) - multiThreadVectorList.size()));
     }
 }
