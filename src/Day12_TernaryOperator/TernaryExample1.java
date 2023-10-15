@@ -26,7 +26,7 @@ public class TernaryExample1 {
         mesaj =(sayi > 50) ? "sayı 50 den büyüktür." : "sayı 50 den küçük veya 50 ye eşittir.";
         System.out.println("Ternary ---> " + mesaj);
 
-        //Assignment yapmadan prinln komutu ile ternary işlem sonucunu ekrana yazdırabiliriz.
+        //Assignment yapmadan println komutu ile ternary işlem sonucunu ekrana yazdırabiliriz.
         System.out.println("println ---> " + ((sayi > 50) ? "sayı 50 den büyüktür." : "sayı 50 den küçük veya 50 ye eşittir."));
     }
 }

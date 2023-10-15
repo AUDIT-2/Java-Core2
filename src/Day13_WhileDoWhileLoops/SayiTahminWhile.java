@@ -14,6 +14,7 @@ public class SayiTahminWhile {
         System.out.println("Sayı tahmin oyunu.");
        // System.out.println(Math.random());
 
+        //(int)(Math.random() * (max - min)) + min
         int randomNum;
         randomNum = (int)(Math.random() * 10 + 1) ; //10 -> üst limit 1-> alt limit
 

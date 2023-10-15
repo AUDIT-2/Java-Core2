@@ -17,9 +17,11 @@ public class WhileLoopSayiTekCiftTopla {
         int tekSayilarToplam = 0;
         int ciftSayilarToplam = 0;
         int genelToplam = 0;
+        String tekSayilar = "";
+        String ciftSyailar = "";
 
         int sayi = 0;
-        int sayac = 0;
+        int sayac = 1;
 
         System.out.print("Klavyeden bir tam sayı giriniz : ");
         sayi = klavye.nextInt();
@@ -27,7 +29,11 @@ public class WhileLoopSayiTekCiftTopla {
         while (sayac <= sayi){
             if(sayac % 2 == 0){
                 ciftSayilarToplam += sayac;
-            }else tekSayilarToplam += sayac;
+                ciftSyailar += sayac + " ";
+            }else {
+                tekSayilar += sayac + " ";
+                tekSayilarToplam += sayac;
+            }
             sayac++;
         }
         //if kullanmadan çift sayıların toplamını bulan loop
@@ -37,8 +43,13 @@ public class WhileLoopSayiTekCiftTopla {
             sayac += 2;
         }*/
 
+        System.out.println("Çift sayılar : " + ciftSyailar);
         System.out.println("Çift sayıların toplamı = " + ciftSayilarToplam);
+        System.out.println();
+
+        System.out.println("Tek sayılar  : " + tekSayilar);
         System.out.println("Tek sayıların toplamı  = " + tekSayilarToplam);
+        System.out.println();
         System.out.println("Genel toplam = " + (ciftSayilarToplam + tekSayilarToplam));
     }
 }
