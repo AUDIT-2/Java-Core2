@@ -15,19 +15,19 @@ public class RaggedArraySentenceAndWords {
 
     public static void main(String[] args) {
         String text = "Bu içerisinde cümleler olan örnek bir dokümandır. İçerisinde bir çok cümle ve cümleler içerisinde kelimeler vardır." +
-                " Cümleler birbirlerinden nokta ile ayrılırlar. Kelimeler ise cümle içerisinde boşluk ile birbirlerinden ayrılırlar.";
+                " Cümleler birbirlerinden nokta ile ayrılırlar. Kelimeler ise cümle içerisinde boşluk ile birbirlerinden ayrılırlar. ";
 
-        String[] cumleler = text.split("\\. ");
+        String[] cumleler = text.split("\\. "); //  '.' karakteri regex için farklı bir anlamı olduğu için '.' karakteri ile split için "\\" escape karakteri kullanmamız gerekir
         System.out.println("cumleler.length = " + cumleler.length);
         /*for (String cumle: cumleler){
             System.out.println("cumle = " + cumle.trim());
-        }
-        System.out.println("Arrays.toString(cumleler) = " + Arrays.toString(cumleler));*/
+        }*/
+        System.out.println("Arrays.toString(cumleler) = " + Arrays.toString(cumleler));
 
-        //Her bir cümleyi kelimelerine ayırıp bir diziye ekleyelim
+        //Her bir cümleyi kelimelerine ayırıp bir diziye ekleyelim. Her cümledeki kelime sayısı farklı olacağından kelimeler dizisi bir ragged/jagged dizi olacaktır
         String[][] kelimeler = new String[cumleler.length][];
         for (int i = 0; i < cumleler.length; i++) {
-            kelimeler[i] = cumleler[i].split(" "); //Cümleyi kelimelerine ayırır
+            kelimeler[i] = cumleler[i].split(" "); //Cümleyi ' ' karakterini ayraç olarak kullanarak kelimelerine ayırır
         }
         System.out.println("Arrays.deepToString(kelimeler) = " + Arrays.deepToString(kelimeler));
 

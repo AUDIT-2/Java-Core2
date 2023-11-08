@@ -13,10 +13,10 @@ public class ExampleFirstLastName {
 
     public static String fullName(String ad, String soyad) {
         String firstCharOfAd = ad.charAt(0) + "";
-        ad = ad.replace(firstCharOfAd, firstCharOfAd.toUpperCase());
+        ad = ad.replaceFirst(firstCharOfAd, firstCharOfAd.toUpperCase());
 
         String firstCharOfSoyad = soyad.charAt(0) + "";
-        soyad = soyad.replace(firstCharOfSoyad, firstCharOfSoyad.toUpperCase());
+        soyad = soyad.replaceFirst(firstCharOfSoyad, firstCharOfSoyad.toUpperCase());
         return ad + " " + soyad;
     }
 

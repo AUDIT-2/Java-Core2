@@ -30,5 +30,6 @@ public class WrapperExample {
         System.out.println("(dblW1 == dblW2) = " + (dblW1 == dblW2));
         System.out.println("(dblW3 == dblW4) = " + (dblW3 == dblW4)); //Double class ında caching mekanizması olmadığından == ile karşılaştırma yapılmamalıdır.
 
+        System.out.println("dblW1.equals(dblW2) = " + dblW1.equals(dblW2));
     }
 }

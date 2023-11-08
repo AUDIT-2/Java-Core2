@@ -7,12 +7,17 @@
 
 package Day27_Arrays2;
 
+import java.util.Arrays;
+
 public class TreeDimArray {
     public static void main(String[] args) {
 
-        int[][][] ogrNotlari = new int[3][2][2]; //3 öğrencinin 2 dersine ait her bir ders için 2 ders notu
+     // int[][][] ogrNotlari = new int[3][2][2]; //3 öğrencinin 2 dersine ait her bir ders için 2 ders notu
+        int[][][] ogrNotlari = {{{75,45},{95,60}},
+                                {{60,80},{70,50}},
+                                {{50,85},{40,70}}};
 
-        ogrNotlari[0][0][0] = 75; //1. öğrencinin birinci dersinin birinci notu
+        /*ogrNotlari[0][0][0] = 75; //1. öğrencinin birinci dersinin birinci notu
         ogrNotlari[0][0][1] = 45; //1. öğrencinin birinci dersinin ikinci notu
         ogrNotlari[0][1][0] = 95; //1. öğrencinin ikinci dersinin birinci notu
         ogrNotlari[0][1][1] = 60; //1. öğrencinin ikinci dersinin ikinci notu
@@ -25,10 +30,10 @@ public class TreeDimArray {
         ogrNotlari[2][0][0] = 50; //3. öğrencinin birinci dersinin birinci notu
         ogrNotlari[2][0][1] = 85; //3. öğrencinin birinci dersinin ikinci notu
         ogrNotlari[2][1][0] = 40; //3. öğrencinin ikinci dersinin birinci notu
-        ogrNotlari[2][1][1] = 70; //3. öğrencinin ikinci dersinin ikinci notu
+        ogrNotlari[2][1][1] = 70; //3. öğrencinin ikinci dersinin ikinci notu*/
 
         for (int ogrNo = 0; ogrNo < ogrNotlari.length; ogrNo++) {//Herbir öğrenciyi dolaşır--
-            System.out.println("-------------------");
+            System.out.println("--------------------");
             System.out.println("Öğrenci numarası : " + (ogrNo + 1));
             for (int ders = 0; ders < ogrNotlari[ogrNo].length; ders++) {
                 System.out.println("--------------------");

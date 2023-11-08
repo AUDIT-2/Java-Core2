@@ -33,10 +33,10 @@ public class WrapperClass {
         String str1 = new String("Ankara");
         String str2 = String.valueOf("SDET");
 
-        Integer intWrapper = new Integer(12345);//
+        Integer intWrapper = new Integer(12345);//Deprecated
         Integer intWrapper1 = Integer.valueOf(12345);
         Integer intWrapper2 = 12345;
-        Integer intWrapper3 = new Integer("12345");
+        Integer intWrapper3 = new Integer("12345");//Deprecated
         Integer intWrapper4 = Integer.valueOf("12345");
 
         System.out.println("intWrapper = " + intWrapper);
@@ -58,7 +58,7 @@ public class WrapperClass {
         System.out.println("Double wrapper class");
         System.out.println();
 
-        Double dblWrapper = new Double(12.456);
+        Double dblWrapper = new Double(12.456); //Deprecated
         Double dblWrapper1 = Double.valueOf(12.456);
         Double dblWrapper2 = Double.valueOf("12.456");
         Double dblWrapper3 = 12.456;
@@ -69,7 +69,5 @@ public class WrapperClass {
         Double dblToplam = 0.0;
         dblToplam = dblWrapper + dblWrapper1;
         System.out.println("dblToplam = " + dblToplam);
-
-
     }
 }

@@ -9,7 +9,7 @@ package Day15_BranchingLabeledStatements;
 
 public class DoWhileContinue {
     public static void main(String[] args) {
-        int start = 1;
+        int start = 0;
         int sum = 0;
 
         do {
@@ -17,7 +17,7 @@ public class DoWhileContinue {
                 continue;
             }
             sum = sum + start; // sum += start;
-        }while (++start <= 10);
+        }while (start++ < 10);
         System.out.println("sum = " + sum);
     }
 }

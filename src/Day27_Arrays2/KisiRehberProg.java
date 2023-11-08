@@ -11,10 +11,10 @@ public class KisiRehberProg {
     public static void main(String[] args) {
         Kisi[] rehberim = new Kisi[5];
 
-        Kisi kisi1 = new Kisi("Ahmet Bekir","Falanca",12345,"Bilinmeyen bir yer.");
-        Kisi kisi2 = new Kisi("Ahat Fatma","Falanca",34512,"ABD/New York");
-        Kisi kisi3 = new Kisi("Mery Ahmet  ","Crismas",17890,"Germany/Berlin");
-        Kisi kisi4 = new Kisi("Ahmet","Smith",34567,"Türkiye/Ankara");
+        Kisi kisi1 = new Kisi("Ahmet Bekir", "Falanca", 12345, "Bilinmeyen bir yer.");
+        Kisi kisi2 = new Kisi("Ahat Fatma", "Falanca", 34512, "ABD/New York");
+        Kisi kisi3 = new Kisi("Mery Ahmet  ", "Crismas", 17890, "Germany/Berlin");
+        Kisi kisi4 = new Kisi("Ahmet", "Smith", 34567, "Türkiye/Ankara");
 
         Kisi kisi5 = new Kisi();
 
@@ -26,8 +26,8 @@ public class KisiRehberProg {
 
 
         System.out.println("Rehberimde kayıtlı kişilerin listesi");
-       /* for (Kisi kisi :rehberim){
-            *//*
+        /* for (Kisi kisi :rehberim){
+         *//*
             System.out.println("kisi.adi = " + kisi.adi);
             System.out.println("kisi.soyadi = " + kisi.soyadi);
             System.out.println("kisi.telNo = " + kisi.telNo);
@@ -37,10 +37,10 @@ public class KisiRehberProg {
             kisi.printInfo();
         }
 */
-      //  Kisi.isimdenBul(rehberim,"Ah");
-       //Kisi.advesoyadtanBul(rehberim,"Ah","Fa");
-        Kisi.telefonBul(rehberim,17890);
-  //    Kisi.listele(rehberim);
+        //  Kisi.isimdenBul(rehberim,"Ah");
+        //Kisi.advesoyadtanBul(rehberim,"Ah","Fa");
+        Kisi.telefonBul(rehberim, 17890);
+        Kisi.listele(rehberim);
 
     }
 }
