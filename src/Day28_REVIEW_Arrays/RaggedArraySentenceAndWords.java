@@ -10,7 +10,7 @@ package Day28_REVIEW_Arrays;
 import java.util.Arrays;
 
 public class RaggedArraySentenceAndWords {
-    //Ragged arrayleri buradaki örnekte de olduğu gibi bir doküman içerisindeki cümleleri
+    //Ragged arrayleri buradaki örnekte de olduğu gibi bir metin içerisindeki cümleleri
     // ve cümleleri oluşturan farklı sayıdaki kelimeleri ayrıştırmak için kullanabiliriz
 
     public static void main(String[] args) {

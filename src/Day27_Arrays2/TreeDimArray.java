@@ -7,15 +7,15 @@
 
 package Day27_Arrays2;
 
-import java.util.Arrays;
-
 public class TreeDimArray {
     public static void main(String[] args) {
 
-     // int[][][] ogrNotlari = new int[3][2][2]; //3 öğrencinin 2 dersine ait her bir ders için 2 ders notu
-        int[][][] ogrNotlari = {{{75,45},{95,60}},
-                                {{60,80},{70,50}},
-                                {{50,85},{40,70}}};
+        // int[][][] ogrNotlari = new int[3][2][2]; //3 öğrencinin 2 dersine ait her bir ders için 2 ders notu
+        int[][][] ogrNotlari = {
+                {{75, 45}, {95, 60}},
+                {{60, 80}, {70, 50}},
+                {{50, 85}, {40, 70}}
+        };
 
         /*ogrNotlari[0][0][0] = 75; //1. öğrencinin birinci dersinin birinci notu
         ogrNotlari[0][0][1] = 45; //1. öğrencinin birinci dersinin ikinci notu
@@ -40,7 +40,7 @@ public class TreeDimArray {
                 System.out.println("Ders no : " + (ders + 1));
                 System.out.println("Notlar : ");
                 for (int notlar = 0; notlar < ogrNotlari[ogrNo][ders].length; notlar++) {
-                    System.out.println(("   "+ (notlar +1 )+ ".not : " + ogrNotlari[ogrNo][ders][notlar]));
+                    System.out.println(("   " + (notlar + 1) + ".not : " + ogrNotlari[ogrNo][ders][notlar]));
                 }
             }
             System.out.println("*********************************");
