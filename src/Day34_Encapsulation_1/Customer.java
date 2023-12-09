@@ -7,8 +7,6 @@
 
 package Day34_Encapsulation_1;
 
-import Day36_StaticClassMembers_1.HesapMakinesi;
-
 import java.util.ArrayList;
 
 public class Customer {
@@ -41,16 +39,19 @@ public class Customer {
     public void addAccount(Account account) {
         this.accounts.add(account);
     }
-    public void hesabaParaYatir(Account account, int ammount){
+
+    public void hesabaParaYatir(Account account, int ammount) {
         account.deposit(ammount);
     }
-    public void hesaptanParaCek(Account account, int ammount){
+
+    public void hesaptanParaCek(Account account, int ammount) {
         account.withdraw(ammount);
     }
-    public void showAccounts(){
+
+    public void showAccounts() {
         System.out.println("Name of customer : " + this.getName());
-        for (Account account: getAccounts()) {
-           // System.out.println("Name of customer : " + this.getName());
+        for (Account account : getAccounts()) {
+            // System.out.println("Name of customer : " + this.getName());
             System.out.println("    Account number   : " + account.getNumber());
             System.out.println("    Account type     : " + account.getType());
             System.out.println("    Account balance  : " + account.getBalance());
