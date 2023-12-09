@@ -26,6 +26,7 @@ public class WrapperAlisVerisSepeti {
         sepet[1]=urun2;
         sepet[2]=urun3;
 
+
 /*
         String[] sepet ={new String("Elma,1.5,10.0,true,10"),
                 new String("Armut,2.5,15.0,true,12"),

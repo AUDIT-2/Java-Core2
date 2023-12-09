@@ -90,8 +90,15 @@ public class VehicleSystemTest {
         //returns array of the interface name of the object
         System.out.println("------------ getClass().getInterfaces() -------------------------");
         for (Vehicle arac :vehicles){
-            System.out.println(arac.getClass().getSimpleName().toUpperCase());
-            System.out.println(Arrays.toString(arac.getClass().getInterfaces()));
+            System.out.println("Class : "+ arac.getClass().getSimpleName().toUpperCase());
+         //   System.out.println(Arrays.toString(arac.getClass().getInterfaces()));
+            if(arac.getClass().getInterfaces().length == 0){//length = 0 means Class does not implement any interface
+                System.out.println("...Interface : none");
+            }else {
+                for(Class eleman: arac.getClass().getInterfaces()){
+                   System.out.println("...Interface : " + eleman.getSimpleName()); //prints the implemented interfaces
+                }
+            }
         }
     }
 }

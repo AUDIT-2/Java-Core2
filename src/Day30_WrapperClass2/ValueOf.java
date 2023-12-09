@@ -12,7 +12,7 @@ public class ValueOf {
         System.out.println("sayiInt = " + (sayiInt * 2));
         System.out.println("sayiDbl = " + sayiDbl);
 
-        Integer number = new Integer(1234);
+        Integer number = new Integer(1234); //Deprecated for removal
         String numberStr = String.valueOf(number); //Convert Integer to String
 
         String numberStr2 = number.toString();

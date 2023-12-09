@@ -17,8 +17,9 @@ public class Customer {
 
     public Customer(String name) {
         //this.name = name;
+        //this.accounts = new ArrayList<>();
         setName(name);
-        this.accounts = new ArrayList<>();
+        setAccounts(new ArrayList<>());
     }
 
     public String getName() {
@@ -31,6 +32,10 @@ public class Customer {
 
     public ArrayList<Account> getAccounts() {
         return accounts;
+    }
+
+    public void setAccounts(ArrayList<Account> accounts) {
+        this.accounts = accounts;
     }
 
     public void addAccount(Account account) {

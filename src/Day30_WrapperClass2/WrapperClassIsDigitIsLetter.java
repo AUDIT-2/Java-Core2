@@ -7,11 +7,9 @@
 
 package Day30_WrapperClass2;
 
-import java.util.Scanner;
-
 public class WrapperClassIsDigitIsLetter {
-    public static void parseString(String str){
-        String letters= "";
+    public static void parseString(String str) {
+        String letters = "";
         String digits = "";
         String specialChars = "";
         int countLetters = 0;
@@ -21,10 +19,10 @@ public class WrapperClassIsDigitIsLetter {
         System.out.println("str = " + str);
         System.out.println("--------------------------");
         for (int i = 0; i < str.length(); i++) {
-            if(Character.isLetter(str.charAt(i))){
+            if (Character.isLetter(str.charAt(i))) {
                 letters += str.charAt(i);
                 countLetters++;
-            } else if(Character.isDigit(str.charAt(i))){
+            } else if (Character.isDigit(str.charAt(i))) {
                 digits += str.charAt(i);
                 countDigits++;
             } else {
@@ -45,6 +43,7 @@ public class WrapperClassIsDigitIsLetter {
         System.out.println("countSpecial = " + countSpecial);
 
     }
+
     public static void main(String[] args) {
         String str = "Abcx7634756387yxşjbjkasdğ8999?*/&snbkd";
         parseString(str);

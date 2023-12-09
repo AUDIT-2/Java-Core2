@@ -14,12 +14,31 @@ public class Account {
     private double balance;
 
     public Account() {
+        //Constructor chaining
+        this(0,"None",0.0);
+
+        //Old style
+      /*
+        this.number = 0;
+        this.type = "None";
+        this.balance = 0.0;
+        */
+
+        //Using setter/mutate methods
+       /* setNumber(0);
+        setType("None");
+        setBalance(0.0);*/
     }
 
     public Account(int number, String type, double balance) {
-        /*this.number = number;
+        //Old style. It violates Encapsulation rules
+        /*
+        this.number = number;
         this.type = type;
-        this.balance = balance;*/
+        this.balance = balance;
+        */
+
+        //Using setter/mutate methods
         setNumber(number);
         setType(type);
         setBalance(balance);

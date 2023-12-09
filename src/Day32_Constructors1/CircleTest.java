@@ -15,7 +15,7 @@ public class CircleTest {
 
         System.out.println("circle = " + circle);
 
-        Circle circle1 = new Circle(25,3); //Instance(object) of class has created with parameterized constructor ---> object
+        Circle circle1 = new Circle(25, 3); //Instance(object) of class has created with parameterized constructor ---> object
 
         System.out.println("circle1 = " + circle1);
         System.out.println("circle1.radius = " + circle1.radius);
@@ -30,7 +30,7 @@ public class CircleTest {
         double hacim = circle1.getVolume();
         System.out.println("hacim = " + hacim);
 
-        double hacim1 = circle1.getArea() *  4;
+        double hacim1 = circle1.getArea() * 4;
         System.out.println("hacim1 = " + hacim1);
 
         System.out.println("circle1.showInfo() = " + circle1.showInfo());

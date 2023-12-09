@@ -15,9 +15,17 @@ public class Bank {
     private ArrayList<Customer> customers;
 
     public Bank(String name, String address) {
+        //Old style
+       /*
         this.name = name;
         this.address = address;
         this.customers = new ArrayList<>();
+        */
+
+        //Setter methods
+        setName(name);
+        setAddress(address);
+        setCustomers(new ArrayList<>());
     }
 
     public String getName() {
@@ -40,17 +48,21 @@ public class Bank {
         return customers;
     }
 
+    public void setCustomers(ArrayList<Customer> customers) {
+        this.customers = customers;
+    }
+
     public void addCustomer(Customer customer) {
         this.customers.add(customer);
     }
 
-    public void showCustomers(){
+    public void showCustomers() {
         System.out.println("Name of bank    : " + this.getName());
         System.out.println("Address of bank : " + this.getAddress());
         System.out.println("----------------------------------");
         System.out.println("Customers of the bank");
         System.out.println("----------------------------------");
-        for (Customer customer : getCustomers()){
+        for (Customer customer : getCustomers()) {
             customer.showAccounts();
         }
     }

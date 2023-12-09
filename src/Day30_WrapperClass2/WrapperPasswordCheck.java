@@ -13,7 +13,7 @@ public class WrapperPasswordCheck {
 
     public static void main(String[] args) {
         System.out.println("Finding Letters, Digits and, Special Chars in a String");
-        String str ="AbcŞxyz";
+        String str;
 
         Scanner veriGir = new Scanner(System.in);
 
@@ -73,7 +73,7 @@ public class WrapperPasswordCheck {
                     System.out.println("Password does not have any Special chars.");
                 }
             }
-        }else System.out.println("Password must be at least 8 chars!!!");
+        }else System.out.println("Password must be at least 10 chars!!!");
 
     }
 }

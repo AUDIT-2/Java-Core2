@@ -9,7 +9,7 @@ package Day40_AccessModifiers.Singleton;
 
 public class ArabaTest {
     public static void main(String[] args) {
-       Araba.setMaxInstance(5);
+       Araba.setMaxInstance(3);
        Araba araba1 = Araba.instanceOlustur();
        Araba araba2 = Araba.instanceOlustur();
        Araba araba3 = Araba.instanceOlustur();

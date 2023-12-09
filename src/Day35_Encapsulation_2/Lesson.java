@@ -10,7 +10,7 @@ package Day35_Encapsulation_2;
 import java.util.ArrayList;
 
 public class Lesson {
-    private static int id;
+    private static int nextId;
     private String lessonId;
     private String lessonName;
 
@@ -18,19 +18,24 @@ public class Lesson {
     private ArrayList<Student> students;
 
     public Lesson(String lessonName) {
-        setId();
-        this.lessonName = lessonName;
+        setNextId();
+       // this.lessonName = lessonName;
+        setLessonName(lessonName);
         setLessonId();
-        teachers = new ArrayList<>();
-        students = new ArrayList<>();
+
+        //teachers = new ArrayList<>();
+        setTeachers(new ArrayList<>());
+
+        //students = new ArrayList<>();
+        setStudents(new ArrayList<>());
     }
 
-    private int getId() {
-        return id;
+    private int getNextId() {
+        return nextId;
     }
 
-    private void setId() {
-        id++;
+    private void  setNextId() {
+        nextId++;
     }
 
     public String getLessonId() {
@@ -38,7 +43,7 @@ public class Lesson {
     }
 
     public void setLessonId() {
-        this.lessonId = this.lessonName  + "-" + id;
+        this.lessonId = this.lessonName  + "-" + nextId;
     }
 
     public String getLessonName() {

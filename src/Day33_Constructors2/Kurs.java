@@ -20,6 +20,7 @@ public class Kurs {
         this.maxCapacity = maxCapacity;
         this.ogrenciler = new ArrayList<>();
         getEmptyCapacity();
+
     }
     public int getEmptyCapacity(){
         return emptyCapacity = maxCapacity - ogrenciler.size();
